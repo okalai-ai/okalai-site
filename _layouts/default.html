@@ -1,39 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Okalai</title>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="icon" href="/assets/images/favicon.png" />
   <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
-
   <header class="header">
-    <div class="container">
-      <h1 class="logo"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-      <nav class="nav">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/research/' | relative_url }}">Research</a>
-        <a href="{{ '/education/' | relative_url }}">Education</a>
+    <div class="container nav">
+      <div class="logo">Okalai</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/research">Research</a></li>
+          <li><a href="/education">Education</a></li>
+        </ul>
       </nav>
     </div>
   </header>
 
-  <main class="main container">
-    <section class="content reveal">
-      {{ content }}
+  <main class="main-content">
+    <section class="hero">
+      <div class="container two-column">
+        <div class="column text-block">
+          <h1>Natural Language AI for a Multilingual World</h1>
+          <p>Okalai is advancing the science of language through research, technology, and education.</p>
+        </div>
+        <div class="column image-block">
+          <img src="/assets/images/okalai-hero.png" alt="Hero image" />
+        </div>
+      </div>
+    </section>
+
+    <section class="cards container">
+      <div class="card" data-sr>
+        <h2>Research</h2>
+        <p>We explore interpretability, multilingual NLP, and healthcare applications.</p>
+      </div>
+      <div class="card" data-sr>
+        <h2>Education</h2>
+        <p>Teaching the next generation of AI practitioners through courses and mentorship.</p>
+      </div>
+      <div class="card" data-sr>
+        <h2>Impact</h2>
+        <p>Our innovations support equitable and accessible AI across languages and cultures.</p>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container">
-      <p>&copy; {{ site.time | date: '%Y' }} Okalai AI</p>
+      <p>&copy; 2025 Okalai AI. All rights reserved.</p>
     </div>
   </footer>
 
   <script>
-    ScrollReveal().reveal('.reveal', { distance: '50px', duration: 800, easing: 'ease-in-out' });
+    ScrollReveal().reveal('[data-sr]', { interval: 200, distance: '20px', origin: 'bottom' });
   </script>
 </body>
 </html>
+

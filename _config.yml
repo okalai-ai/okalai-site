@@ -1,7 +1,7 @@
 title: "Okalai"
 description: "Okalai AI"
-url: "https://ndapa.github.io"
-baseurl: "/okalai-site"  # MUST match your repo name
+url: "https://okalai.org"
+baseurl: ""
 
 
 author:

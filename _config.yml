@@ -1,0 +1,12 @@
+title: "Okalai"
+description: "Okalai AI"
+url: "https://ndapa.github.io"
+baseurl: "/okalai-site"  # MUST match your repo name
+
+
+author:
+  name: "Okalai Team"
+  
+theme: minima
+plugins:
+  - jekyll-feed

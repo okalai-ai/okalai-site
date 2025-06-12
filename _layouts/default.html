@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1 class="logo"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <nav class="nav">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/research/' | relative_url }}">Research</a>
+        <a href="{{ '/education/' | relative_url }}">Education</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main container">
+    <section class="content reveal">
+      {{ content }}
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; {{ site.time | date: '%Y' }} Okalai AI</p>
+    </div>
+  </footer>
+
+  <script>
+    ScrollReveal().reveal('.reveal', { distance: '50px', duration: 800, easing: 'ease-in-out' });
+  </script>
+</body>
+</html>

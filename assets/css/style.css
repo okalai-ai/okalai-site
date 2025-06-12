@@ -16,7 +16,7 @@ body {
 }
 
 .header {
-  background-color: #f5f8fa;
+  background-color: #fdf1cf;
   color: white;
   padding: 1rem 0;
   position: sticky;
@@ -115,7 +115,7 @@ body {
 }
 
 .footer {
-  background-color: #f5f8fa;
+  background-color: #fdf1cf;
   color: white;
   text-align: center;
   padding: 1rem 0;

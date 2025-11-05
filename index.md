@@ -9,9 +9,8 @@ title: Home
       <h1>Okalai AI</h1>
       <p>Researching the next generation of multilingual AI.</p>
       <p>
-        Okalai is expanding the map, one language at a time. Originally <a href="https://ndapa.us">launched</a> in 2021 through a small series of AI events, Okalai AI became an independent research institute in 2025, focused on advancing foundational methods in multilingual NLP.
-<br>
-Our work focuses on language tech that goes beyond high-resource settings.
+        Okalai AI  works at the frontier of Large Language Models (LLMs), pushing the boundaries where today’s LLMs fall short, especially in multilingual  contexts.
+        Originally <a href="https://ndapa.us">launched</a> in 2021 through a small series of AI events, Okalai AI became an independent research institute in 2025. We develop foundational methods that ensure  language tech  goes beyond high-resource settings.
       </p>
     </div>
     <div class="column image-block">

@@ -461,6 +461,142 @@ a {
   margin-top: 0.25rem;
 }
 
+/* === Try It Search Widget === */
+.try-it {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e8e8ee;
+}
+
+.try-it-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #6c63ff;
+  margin-bottom: 0.75rem;
+}
+
+.try-it-search {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.try-it-search input {
+  flex: 1;
+  min-width: 180px;
+  padding: 0.7rem 1rem;
+  font-size: 0.95rem;
+  font-family: inherit;
+  border: 2px solid #e8e8ee;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s;
+  background: #fafafa;
+  color: #1a1a2e;
+}
+
+.try-it-search input:focus {
+  border-color: #6c63ff;
+}
+
+.try-it-toggle {
+  display: flex;
+  gap: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid #e8e8ee;
+}
+
+.toggle-btn {
+  padding: 0.6rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: inherit;
+  background: white;
+  color: #555;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.toggle-btn.active {
+  background: #6c63ff;
+  color: white;
+}
+
+.try-it-results {
+  margin-top: 0.75rem;
+}
+
+.try-it-entry {
+  display: block;
+  padding: 0.6rem 0.75rem;
+  border-radius: 8px;
+  transition: background 0.15s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.try-it-entry:hover {
+  background: #f0f0f5;
+}
+
+.try-it-word {
+  display: block;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #0a0f1a;
+}
+
+.try-it-word em {
+  font-weight: 500;
+  color: #6c63ff;
+}
+
+.try-it-pos {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #888;
+  background: #f0f0f5;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  margin-top: 0.2rem;
+}
+
+.try-it-def {
+  display: block;
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.2rem;
+  line-height: 1.5;
+}
+
+.try-it-more {
+  display: block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #6c63ff;
+  text-decoration: none;
+}
+
+.try-it-more:hover {
+  text-decoration: underline;
+}
+
+.try-it-empty {
+  font-size: 0.9rem;
+  color: #888;
+  padding: 0.5rem 0;
+}
+
 /* === People === */
 .people-grid {
   display: grid;

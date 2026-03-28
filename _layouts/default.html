@@ -134,6 +134,61 @@
     };
     window.addEventListener('scroll', animateStats);
     animateStats();
+
+    // Okalex live search widget
+    const searchInput = document.getElementById('okalex-search');
+    const resultsDiv = document.getElementById('okalex-results');
+    const toggleBtns = document.querySelectorAll('.toggle-btn');
+    let searchLang = 'en';
+    let debounceTimer;
+
+    if (toggleBtns.length) {
+      toggleBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          toggleBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          searchLang = btn.dataset.lang;
+          if (searchInput.value.trim()) searchInput.dispatchEvent(new Event('input'));
+        });
+      });
+    }
+
+    if (searchInput) {
+      searchInput.addEventListener('input', () => {
+        clearTimeout(debounceTimer);
+        const query = searchInput.value.trim();
+        if (!query) {
+          resultsDiv.innerHTML = '';
+          return;
+        }
+        debounceTimer = setTimeout(() => {
+          const param = searchLang === 'en' ? 'q_en' : 'q_kw';
+          fetch(`https://okalex.org/api/entries?page=1&limit=4&${param}=${encodeURIComponent(query)}`)
+            .then(r => r.json())
+            .then(data => {
+              const entries = data.entries || data.results || data;
+              if (!Array.isArray(entries) || entries.length === 0) {
+                resultsDiv.innerHTML = '<p class="try-it-empty">No results found. Try another word.</p>';
+                return;
+              }
+              resultsDiv.innerHTML = entries.slice(0, 4).map(e => {
+                const word = e.english_word || e.word || e.term || '';
+                const kw = e.kwanyama_word || e.translation || '';
+                const pos = e.part_of_speech || '';
+                const def = e.definition || '';
+                return `<a href="https://okalex.org" target="_blank" rel="noopener" class="try-it-entry">
+                  <span class="try-it-word">${word}${kw ? ' &mdash; <em>' + kw + '</em>' : ''}</span>
+                  ${pos ? '<span class="try-it-pos">' + pos + '</span>' : ''}
+                  ${def ? '<span class="try-it-def">' + def.slice(0, 100) + (def.length > 100 ? '...' : '') + '</span>' : ''}
+                </a>`;
+              }).join('') + '<a href="https://okalex.org" target="_blank" rel="noopener" class="try-it-more">See all results on Okalex &rarr;</a>';
+            })
+            .catch(() => {
+              resultsDiv.innerHTML = '<p class="try-it-empty">Could not connect to Okalex.</p>';
+            });
+        }, 500);
+      });
+    }
   </script>
 </body>
 </html>

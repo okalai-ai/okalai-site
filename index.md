@@ -97,6 +97,18 @@ title: Home
           For the learning aspect, Okalex includes interactive quizzes and flashcards for vocabulary practice, and a community commenting system so users can flag corrections. Built to scale beyond Kwanyama to other languages (forthcoming).
         </p>
         <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Visit Okalex &rarr;</a>
+
+        <div class="try-it" data-sr>
+          <p class="try-it-label">Try it — search a word</p>
+          <div class="try-it-search">
+            <input type="text" id="okalex-search" placeholder="e.g. water, mother, sun..." autocomplete="off" />
+            <div class="try-it-toggle">
+              <button class="toggle-btn active" data-lang="en">English</button>
+              <button class="toggle-btn" data-lang="kw">Kwanyama</button>
+            </div>
+          </div>
+          <div id="okalex-results" class="try-it-results"></div>
+        </div>
       </div>
       <div class="product-stats">
         <div class="stat" data-sr>

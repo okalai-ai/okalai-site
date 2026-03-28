@@ -5,7 +5,7 @@ title: Home
 
 <section class="hero">
   <div class="container hero-inner">
-    <div class="hero-badge" data-sr>Independent Research Studio</div>
+    <div class="hero-badge" data-sr>Independent Research Institute</div>
     <h1 data-sr>Building AI for every language.</h1>
     <p class="hero-sub" data-sr>
       We research and build language technology where today's LLMs fall short —
@@ -23,7 +23,7 @@ title: Home
   <div class="container">
     <div class="section-header" data-sr>
       <span class="section-label">Research</span>
-      <h2>Published at top venues</h2>
+      <h2>Publications</h2>
       <p class="section-desc">Our work spans multilingual LLMs, typological adaptation, and low-resource NLP.</p>
     </div>
 
@@ -89,11 +89,11 @@ title: Home
   <div class="container">
     <div class="section-header" data-sr>
       <span class="section-label">About</span>
-      <h2>The studio</h2>
+      <h2>The institute</h2>
     </div>
     <div class="about-content" data-sr>
       <p>
-        Okalai AI is an independent research studio founded by <a href="https://ndapa.us">Ndapa Nakashole</a>.
+        Okalai AI is an independent research institute founded by <a href="https://ndapa.us">Ndapa Nakashole</a>.
         Originally launched in 2021 through a series of AI events, it became an independent research institute in 2025.
       </p>
       <p>

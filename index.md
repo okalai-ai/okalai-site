@@ -63,12 +63,12 @@ title: Home
     <div class="product-card" data-sr>
       <div class="product-info">
         <h3>Okalex</h3>
-        <p class="product-tagline">English–Kwanyama Dictionary</p>
+        <p class="product-tagline">Lexicography and Learning Platform</p>
         <p>
-          A comprehensive digital dictionary with nearly 12,000 entries — including translations, definitions, parts of speech, synonyms, and example sentences. Search in both English and Kwanyama, browse the A-Z index, discover featured entries, or learn with the Word of the Day.
+          Okalex currently features an Okalai AI novel dataset, a comprehensive digital dictionary with nearly 12,000 entries, including translations, definitions, parts of speech, synonyms, and example sentences. Search in both English and Kwanyama, browse the A-Z index, discover featured entries, or learn with the Word of the Day.
         </p>
         <p>
-          Okalex includes interactive quizzes and flashcards for vocabulary practice, AI-generated illustrations on noun entries for visual learning, and a community commenting system so users can flag corrections. Built to scale beyond Kwanyama to serve Ndonga, Herero, Rukwangali, and other Namibian languages.
+          Okalex includes interactive quizzes and flashcards for vocabulary practice, and a community commenting system so users can flag corrections. Built to scale beyond Kwanyama to other languages (forthcoming).
         </p>
         <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Visit Okalex &rarr;</a>
       </div>

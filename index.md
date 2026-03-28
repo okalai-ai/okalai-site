@@ -63,12 +63,12 @@ title: Home
     <div class="product-card" data-sr>
       <div class="product-info">
         <h3>Okalex</h3>
-        <p class="product-tagline">Lexicography and Learning Platform</p>
+        <p class="product-tagline">Lexicography and Interactive Learning Platform</p>
         <p>
-          Okalex currently features an Okalai AI novel dataset, a comprehensive digital dictionary with nearly 12,000 entries, including translations, definitions, parts of speech, synonyms, and example sentences. Search in both English and Kwanyama, browse the A-Z index, discover featured entries, or learn with the Word of the Day.
+          Okalex currently features an Okalai AI novel dataset, the first Kwanyama digital dictionary with nearly 12,000 entries, including translations, definitions, parts of speech, synonyms, and example sentences. Search in both English and Kwanyama,  and discover featured entries.
         </p>
         <p>
-          Okalex includes interactive quizzes and flashcards for vocabulary practice, and a community commenting system so users can flag corrections. Built to scale beyond Kwanyama to other languages (forthcoming).
+          For the learning aspect, Okalex  includes interactive quizzes and flashcards for vocabulary practice, and a community commenting system so users can flag corrections. Built to scale beyond Kwanyama to other languages (forthcoming).
         </p>
         <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Visit Okalex &rarr;</a>
       </div>

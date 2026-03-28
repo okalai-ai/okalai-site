@@ -4,32 +4,102 @@ title: Home
 ---
 
 <section class="hero">
-  <div class="container two-column">
-    <div class="column text-block">
-      <h1>Okalai AI</h1>
-      <p>Researching the next generation of multilingual AI.</p>
-      <p>
-        Okalai AI  works at the frontier of Large Language Models (LLMs), pushing the boundaries where today’s LLMs fall short, especially in multilingual  contexts.
-        Originally <a href="https://ndapa.us">launched</a> in 2021 through a small series of AI events, Okalai AI became an independent research institute in 2025. We develop foundational methods that ensure  language tech  goes beyond high-resource settings.
-      </p>
+  <div class="container hero-inner">
+    <div class="hero-badge" data-sr>Independent Research Studio</div>
+    <h1 data-sr>Building AI for every language.</h1>
+    <p class="hero-sub" data-sr>
+      We research and build language technology where today's LLMs fall short —
+      the thousands of languages left behind by mainstream AI.
+    </p>
+    <div class="hero-cta" data-sr>
+      <a href="#research" class="btn btn-primary">Our Research</a>
+      <a href="#products" class="btn btn-outline">See Products</a>
     </div>
-    <div class="column image-block">
-      <img src="/assets/images/okalai-hero.png" alt="Okalai AI  image">
+  </div>
+  <div class="hero-gradient"></div>
+</section>
+
+<section id="research" class="section">
+  <div class="container">
+    <div class="section-header" data-sr>
+      <span class="section-label">Research</span>
+      <h2>Published at top venues</h2>
+      <p class="section-desc">Our work spans multilingual LLMs, typological adaptation, and low-resource NLP.</p>
+    </div>
+
+    <div class="papers">
+      <div class="paper-card" data-sr>
+        <div class="paper-venue"><span class="venue-tag">LREC 2026</span></div>
+        <h3>Sentiment Analysis and Language Models for Kwanyama</h3>
+        <p class="paper-detail">1B, 3B, and 8B parameter LLMs for Kwanyama — among the first large language models for a Bantu language of this scale.</p>
+        <p class="paper-author">Ndapa Nakashole</p>
+      </div>
+
+      <div class="paper-card" data-sr>
+        <div class="paper-venue">
+          <span class="venue-tag">ACL 2025</span>
+          <span class="award-tag">Outstanding Paper Award</span>
+        </div>
+        <h3>Typology-Guided Adaptation in Multilingual Models</h3>
+        <p class="paper-detail">Leveraging linguistic typology to improve cross-lingual transfer in multilingual models.</p>
+        <p class="paper-author">Ndapa Nakashole</p>
+        <div class="paper-links">
+          <a href="#" class="paper-link">PDF</a>
+          <a href="#" class="paper-link">Data</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="cards container">
-  <div class="card" data-sr>
-    <h2>Research</h2>
-    <p>Our team publishes in top NLP and ML venues, focusing on multilingual understanding, model interpretability, and grounded AI.</p>
+<section id="products" class="section section-alt">
+  <div class="container">
+    <div class="section-header" data-sr>
+      <span class="section-label">Products</span>
+      <h2>Research in production</h2>
+      <p class="section-desc">Tools built from our research, deployed for real users.</p>
+    </div>
+
+    <div class="product-card" data-sr>
+      <div class="product-info">
+        <h3>OKalex</h3>
+        <p class="product-tagline">English–Kwanyama Dictionary</p>
+        <p>A comprehensive bilingual dictionary with translations, synonyms, and usage notes. The most extensive digital resource for Kwanyama.</p>
+        <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Visit OKalex &rarr;</a>
+      </div>
+      <div class="product-stats">
+        <div class="stat" data-sr>
+          <span class="stat-number" data-target="11936">0</span>
+          <span class="stat-label">Dictionary Entries</span>
+        </div>
+        <div class="stat" data-sr>
+          <span class="stat-number" data-target="1116">0</span>
+          <span class="stat-label">Translations</span>
+        </div>
+        <div class="stat" data-sr>
+          <span class="stat-number" data-target="2544">0</span>
+          <span class="stat-label">Synonyms</span>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="card" data-sr>
-    <h2>Education</h2>
-    <p>We lead AI training programs, mentor students, and create accessible resources for learning advanced NLP techniques.</p>
-  </div>
-  <div class="card" data-sr>
-    <h2>Impact</h2>
-    <p>We partner with organizations to deploy AI that supports healthcare, civic technology, and underserved languages.</p>
+</section>
+
+<section id="about" class="section">
+  <div class="container">
+    <div class="section-header" data-sr>
+      <span class="section-label">About</span>
+      <h2>The studio</h2>
+    </div>
+    <div class="about-content" data-sr>
+      <p>
+        Okalai AI is an independent research studio founded by <a href="https://ndapa.us">Ndapa Nakashole</a>.
+        Originally launched in 2021 through a series of AI events, it became an independent research institute in 2025.
+      </p>
+      <p>
+        We work at the frontier of multilingual Large Language Models — developing foundational methods, datasets, and tools
+        that push language technology beyond high-resource settings into the thousands of languages currently left behind.
+      </p>
+    </div>
   </div>
 </section>

@@ -4,19 +4,45 @@ title: Home
 ---
 
 <section class="hero">
-  <div class="container hero-inner">
-    <div class="hero-badge" data-sr>Independent Research Institute</div>
-    <h1 data-sr>Building AI for every language.</h1>
-    <p class="hero-sub" data-sr>
-      We research and build language technology where today's LLMs fall short,
-      the thousands of languages left behind by state-of-the-art AI.
-    </p>
-    <div class="hero-cta" data-sr>
-      <a href="#research" class="btn btn-primary">Our Research</a>
-      <a href="#products" class="btn btn-outline">See Products</a>
+  <div class="container hero-columns">
+    <div class="hero-inner">
+      <div class="hero-badge" data-sr>Independent Research Institute</div>
+      <h1 data-sr>Building AI for every language.</h1>
+      <p class="hero-sub" data-sr>
+        We research and build language technology where today's LLMs fall short —
+        the thousands of languages left behind by state-of-the-art AI.
+      </p>
+      <div class="hero-cta" data-sr>
+        <a href="#research" class="btn btn-primary">Our Research</a>
+        <a href="#products" class="btn btn-outline">See Products</a>
+      </div>
+    </div>
+    <div class="hero-image" data-sr>
+      <img src="/assets/images/okalai-hero2.png" alt="Okalai AI" />
     </div>
   </div>
   <div class="hero-gradient"></div>
+</section>
+
+<section id="news" class="news-ticker">
+  <div class="container">
+    <div class="news-items">
+      <div class="news-item">
+        <span class="news-date">Mar 2026</span>
+        <span class="news-text">Okalex launched — the first comprehensive English-Kwanyama digital dictionary and learning platform</span>
+        <a href="https://okalex.org" class="news-link" target="_blank" rel="noopener">Visit &rarr;</a>
+      </div>
+      <div class="news-item">
+        <span class="news-date">Feb 2026</span>
+        <span class="news-text">Paper on Kwanyama LLMs (1B, 3B, 8B) accepted at LREC 2026</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">Jul 2025</span>
+        <span class="news-text">Outstanding Paper Award at ACL 2025 for typology-guided multilingual adaptation</span>
+        <a href="https://ndapa.us/assets/docs/papers/2025-moi-acl.pdf" class="news-link" target="_blank" rel="noopener">PDF &rarr;</a>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section id="research" class="section">
@@ -31,7 +57,7 @@ title: Home
       <div class="paper-card" data-sr>
         <div class="paper-venue"><span class="venue-tag">LREC 2026</span></div>
         <h3>Sentiment Analysis and Language Models for Kwanyama</h3>
-        <p class="paper-detail">1B, 3B, and 8B parameter LLMs for Kwanyama,  the first large language models for Kwanyama of this scale.</p>
+        <p class="paper-detail">1B, 3B, and 8B parameter LLMs for Kwanyama, the first large language models for Kwanyama of this scale.</p>
         <p class="paper-author">Ndapa Nakashole</p>
       </div>
 
@@ -65,10 +91,10 @@ title: Home
         <h3>Okalex</h3>
         <p class="product-tagline">Lexicography and Interactive Learning Platform</p>
         <p>
-          Okalex currently features an Okalai AI novel dataset, the first Kwanyama digital dictionary with nearly 12,000 entries, including translations, definitions, parts of speech, synonyms, and example sentences. Search in both English and Kwanyama,  and discover featured entries.
+          Okalex currently features an Okalai AI novel dataset, the first Kwanyama digital dictionary with nearly 12,000 entries, including translations, definitions, parts of speech, synonyms, and example sentences. Search in both English and Kwanyama, and discover featured entries.
         </p>
         <p>
-          For the learning aspect, Okalex  includes interactive quizzes and flashcards for vocabulary practice, and a community commenting system so users can flag corrections. Built to scale beyond Kwanyama to other languages (forthcoming).
+          For the learning aspect, Okalex includes interactive quizzes and flashcards for vocabulary practice, and a community commenting system so users can flag corrections. Built to scale beyond Kwanyama to other languages (forthcoming).
         </p>
         <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Visit Okalex &rarr;</a>
       </div>
@@ -90,21 +116,27 @@ title: Home
   </div>
 </section>
 
-<section id="about" class="section">
+<section id="people" class="section">
   <div class="container">
     <div class="section-header" data-sr>
-      <span class="section-label">About</span>
-      <h2>The institute</h2>
+      <span class="section-label">People</span>
+      <h2>Who we are</h2>
     </div>
-    <div class="about-content" data-sr>
-      <p>
-        Okalai AI is an independent research institute founded by <a href="https://ndapa.us">Ndapa Nakashole</a>.
-        Originally launched in 2021 through a series of AI events, it became an independent research institute in 2025.
-      </p>
-      <p>
-        We work at the frontier of multilingual Large Language Models — developing foundational methods, datasets, and tools
-        that push language technology beyond high-resource settings into the thousands of languages currently left behind.
-      </p>
+    <div class="people-grid">
+      <div class="person-card" data-sr>
+        <div class="person-info">
+          <h3>Ndapa Nakashole</h3>
+          <p class="person-role">Founder &amp; Research Lead</p>
+          <p class="person-bio">
+            Researcher in multilingual NLP, building language technology for underserved languages. Published at ACL, LREC, and other top venues.
+          </p>
+          <div class="person-links">
+            <a href="https://ndapa.us" target="_blank" rel="noopener">Website</a>
+            <a href="https://scholar.google.com/citations?user=wGKNFIkAAAAJ" target="_blank" rel="noopener">Scholar</a>
+            <a href="https://github.com/okalai-ai" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

@@ -8,8 +8,8 @@ title: Home
     <div class="hero-badge" data-sr>Independent Research Institute</div>
     <h1 data-sr>Building AI for every language.</h1>
     <p class="hero-sub" data-sr>
-      We research and build language technology where today's LLMs fall short —
-      the thousands of languages left behind by mainstream AI.
+      We research and build language technology where today's LLMs fall short,
+      the thousands of languages left behind by state-of-the-art AI.
     </p>
     <div class="hero-cta" data-sr>
       <a href="#research" class="btn btn-primary">Our Research</a>
@@ -31,7 +31,7 @@ title: Home
       <div class="paper-card" data-sr>
         <div class="paper-venue"><span class="venue-tag">LREC 2026</span></div>
         <h3>Sentiment Analysis and Language Models for Kwanyama</h3>
-        <p class="paper-detail">1B, 3B, and 8B parameter LLMs for Kwanyama — among the first large language models for a Bantu language of this scale.</p>
+        <p class="paper-detail">1B, 3B, and 8B parameter LLMs for Kwanyama,  the first large language models for this language of this scale.</p>
         <p class="paper-author">Ndapa Nakashole</p>
       </div>
 
@@ -44,8 +44,8 @@ title: Home
         <p class="paper-detail">Leveraging linguistic typology to improve cross-lingual transfer in multilingual models.</p>
         <p class="paper-author">Ndapa Nakashole</p>
         <div class="paper-links">
-          <a href="#" class="paper-link">PDF</a>
-          <a href="#" class="paper-link">Data</a>
+          <a href="https://ndapa.us/assets/docs/papers/2025-moi-acl.pdf" class="paper-link">PDF</a>
+          <a href="https://ndapa.us/research/#:~:text=Award%20%F0%9F%93%84%20PDF-,Data,-On%20Linearizing%20Structured" class="paper-link">Data</a>
         </div>
       </div>
     </div>

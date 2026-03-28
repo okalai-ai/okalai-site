@@ -109,14 +109,33 @@ a {
   position: relative;
   background: #0a0f1a;
   color: white;
-  padding: 8rem 0 6rem;
+  padding: 6rem 0 5rem;
   overflow: hidden;
+}
+
+.hero-columns {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
 }
 
 .hero-inner {
   position: relative;
   z-index: 1;
-  max-width: 720px;
+  flex: 1;
+  max-width: 620px;
+}
+
+.hero-image {
+  flex: 0 0 320px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 16px;
+  opacity: 0.9;
 }
 
 .hero-badge {
@@ -133,7 +152,7 @@ a {
 }
 
 .hero h1 {
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -1.5px;
@@ -156,6 +175,53 @@ a {
   height: 600px;
   background: radial-gradient(circle, rgba(108, 99, 255, 0.15) 0%, transparent 70%);
   pointer-events: none;
+}
+
+/* === News Ticker === */
+.news-ticker {
+  background: #12182b;
+  border-top: 1px solid rgba(108, 99, 255, 0.15);
+  padding: 1.5rem 0;
+}
+
+.news-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.news-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.news-date {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6c63ff;
+  white-space: nowrap;
+  min-width: 70px;
+}
+
+.news-text {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.news-link {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #6c63ff;
+  transition: color 0.2s;
+  white-space: nowrap;
+}
+
+.news-link:hover {
+  color: #8b85ff;
 }
 
 /* === Buttons === */
@@ -395,6 +461,67 @@ a {
   margin-top: 0.25rem;
 }
 
+/* === People === */
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.person-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid #e8e8ee;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.person-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+}
+
+.person-info h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #0a0f1a;
+  margin-bottom: 0.25rem;
+}
+
+.person-role {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #6c63ff;
+  margin-bottom: 1rem;
+}
+
+.person-bio {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+
+.person-links {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.person-links a {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #6c63ff;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid rgba(108, 99, 255, 0.3);
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.person-links a:hover {
+  background: #6c63ff;
+  color: white;
+}
+
 /* === About === */
 .about-content {
   max-width: 640px;
@@ -422,7 +549,7 @@ a {
 .footer {
   background: #0a0f1a;
   color: rgba(255, 255, 255, 0.5);
-  padding: 2rem 0;
+  padding: 2.5rem 0;
   font-size: 0.85rem;
 }
 
@@ -440,6 +567,21 @@ a {
 
 .footer-left p {
   margin-top: 0.25rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: white;
 }
 
 /* === Responsive === */
@@ -466,7 +608,18 @@ a {
   }
 
   .hero {
-    padding: 5rem 0 4rem;
+    padding: 4rem 0 3rem;
+  }
+
+  .hero-columns {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .hero-image {
+    flex: none;
+    width: 100%;
+    max-width: 280px;
   }
 
   .hero h1 {
@@ -490,12 +643,38 @@ a {
 
   .stat {
     flex: 1;
+    padding: 1rem 0.5rem;
+  }
+
+  .stat-number {
+    font-size: 1.5rem;
+  }
+
+  .stat-label {
+    font-size: 0.65rem;
+    letter-spacing: 0.5px;
   }
 
   .footer-inner {
     flex-direction: column;
     text-align: center;
-    gap: 0.75rem;
+    gap: 1rem;
+  }
+
+  .footer-links {
+    gap: 1rem;
+  }
+
+  .news-item {
+    flex-direction: column;
+    gap: 0.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .news-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
   }
 }
 
@@ -505,6 +684,10 @@ a {
   }
 
   .papers {
+    grid-template-columns: 1fr;
+  }
+
+  .people-grid {
     grid-template-columns: 1fr;
   }
 }

@@ -45,7 +45,7 @@ title: Home
         <p class="paper-author">Ndapa Nakashole</p>
         <div class="paper-links">
           <a href="https://ndapa.us/assets/docs/papers/2025-moi-acl.pdf" class="paper-link">PDF</a>
-          <a href="https://ndapa.us/research/#:~:text=Award%20%F0%9F%93%84%20PDF-,Data,-On%20Linearizing%20Structured" class="paper-link">Data</a>
+          <a href="https://github.com/okalai-ai/moimoe" class="paper-link">Data</a>
         </div>
       </div>
     </div>

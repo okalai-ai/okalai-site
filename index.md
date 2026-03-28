@@ -18,7 +18,7 @@ title: Home
       </div>
     </div>
     <div class="hero-image" data-sr>
-      <img src="/assets/images/okalai-hero2.png" alt="Okalai AI" />
+      <img src="/assets/images/okalai-hero.png" alt="Okalai AI" />
     </div>
   </div>
   <div class="hero-gradient"></div>
@@ -128,11 +128,10 @@ title: Home
           <h3>Ndapa Nakashole</h3>
           <p class="person-role">Founder &amp; Research Lead</p>
           <p class="person-bio">
-            Researcher in multilingual NLP, building language technology for underserved languages. Published at ACL, LREC, and other top venues.
+            Researcher in  NLP, Associate Professor off Computer Science | University of California, San Diego
           </p>
           <div class="person-links">
             <a href="https://ndapa.us" target="_blank" rel="noopener">Website</a>
-            <a href="https://scholar.google.com/citations?user=wGKNFIkAAAAJ" target="_blank" rel="noopener">Scholar</a>
             <a href="https://github.com/okalai-ai" target="_blank" rel="noopener">GitHub</a>
           </div>
         </div>

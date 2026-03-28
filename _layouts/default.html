@@ -166,22 +166,23 @@
           fetch(`https://okalex.org/api/entries?page=1&limit=4&${param}=${encodeURIComponent(query)}`)
             .then(r => r.json())
             .then(data => {
-              const entries = data.entries || data.results || data;
-              if (!Array.isArray(entries) || entries.length === 0) {
+              const entries = Array.isArray(data) ? data : (data.entries || data.results || []);
+              if (!entries.length) {
                 resultsDiv.innerHTML = '<p class="try-it-empty">No results found. Try another word.</p>';
                 return;
               }
               resultsDiv.innerHTML = entries.slice(0, 4).map(e => {
-                const word = e.english_word || e.word || e.term || '';
-                const kw = e.kwanyama_word || e.translation || '';
-                const pos = e.part_of_speech || '';
+                const word = e.english || '';
+                const kw = e.kwanyama || '';
+                const pos = e.pos || '';
                 const def = e.definition || '';
-                return `<a href="https://okalex.org" target="_blank" rel="noopener" class="try-it-entry">
+                const viewerUrl = `https://okalex.org/viewer.html?word=${encodeURIComponent(word)}`;
+                return `<a href="${viewerUrl}" target="_blank" rel="noopener" class="try-it-entry">
                   <span class="try-it-word">${word}${kw ? ' &mdash; <em>' + kw + '</em>' : ''}</span>
                   ${pos ? '<span class="try-it-pos">' + pos + '</span>' : ''}
-                  ${def ? '<span class="try-it-def">' + def.slice(0, 100) + (def.length > 100 ? '...' : '') + '</span>' : ''}
+                  ${def ? '<span class="try-it-def">' + def.slice(0, 120) + (def.length > 120 ? '...' : '') + '</span>' : ''}
                 </a>`;
-              }).join('') + '<a href="https://okalex.org" target="_blank" rel="noopener" class="try-it-more">See all results on Okalex &rarr;</a>';
+              }).join('') + `<a href="https://okalex.org/viewer.html?word=${encodeURIComponent(searchInput.value.trim())}" target="_blank" rel="noopener" class="try-it-more">See all results on Okalex &rarr;</a>`;
             })
             .catch(() => {
               resultsDiv.innerHTML = '<p class="try-it-empty">Could not connect to Okalex.</p>';

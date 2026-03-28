@@ -128,7 +128,7 @@ title: Home
           <h3>Ndapa Nakashole</h3>
           <p class="person-role">Founder &amp; Research Lead</p>
           <p class="person-bio">
-            Researcher in  NLP, Associate Professor off Computer Science | University of California, San Diego
+            Associate Professor of Computer Science | University of California, San Diego
           </p>
           <div class="person-links">
             <a href="https://ndapa.us" target="_blank" rel="noopener">Website</a>

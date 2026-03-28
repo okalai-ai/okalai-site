@@ -31,7 +31,7 @@ title: Home
       <div class="paper-card" data-sr>
         <div class="paper-venue"><span class="venue-tag">LREC 2026</span></div>
         <h3>Sentiment Analysis and Language Models for Kwanyama</h3>
-        <p class="paper-detail">1B, 3B, and 8B parameter LLMs for Kwanyama,  the first large language models for this language of this scale.</p>
+        <p class="paper-detail">1B, 3B, and 8B parameter LLMs for Kwanyama,  the first large language models for Kwanyama of this scale.</p>
         <p class="paper-author">Ndapa Nakashole</p>
       </div>
 

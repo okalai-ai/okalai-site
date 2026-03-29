@@ -125,6 +125,32 @@ title: Home
         </div>
       </div>
     </div>
+
+    <div class="product-card" data-sr style="margin-top: 3rem;">
+      <div class="product-info">
+        <h3>OKalm</h3>
+        <p class="product-tagline">First Public Kwanyama Language Models</p>
+        <p>
+          OKalm is a family of large language models for Kwanyama — the first publicly available LLMs for the language. Available in three sizes to suit different use cases, from lightweight applications to more capable generation.
+        </p>
+        <div class="model-links">
+          <a href="https://huggingface.co/okalai-ai/okalm-1b" class="btn btn-outline" target="_blank" rel="noopener">OKalm-1B</a>
+          <a href="https://huggingface.co/okalai-ai/okalm-3b" class="btn btn-outline" target="_blank" rel="noopener">OKalm-3B</a>
+          <a href="https://huggingface.co/okalai-ai/okalm-8b" class="btn btn-outline" target="_blank" rel="noopener">OKalm-8B</a>
+        </div>
+        <a href="https://huggingface.co/okalai-ai" class="btn btn-primary" target="_blank" rel="noopener" style="margin-top: 1rem;">View on Hugging Face &rarr;</a>
+      </div>
+      <div class="product-stats">
+        <div class="stat" data-sr>
+          <span class="stat-number">3</span>
+          <span class="stat-label">Model Sizes</span>
+        </div>
+        <div class="stat" data-sr>
+          <span class="stat-number">1B–8B</span>
+          <span class="stat-label">Parameters</span>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 

@@ -129,7 +129,7 @@ title: Home
     <div class="product-card" data-sr style="margin-top: 3rem;">
       <div class="product-info">
         <h3>OkaLM</h3>
-        <p class="product-tagline">First Public Kwanyama Language Models</p>
+        <p class="product-tagline">Kwanyama Language Models</p>
         <p>
           OkaLM is a family of large language models for Kwanyama — the first publicly available LLMs for the language. Available in three sizes to suit different use cases, from lightweight applications to more capable generation.
         </p>

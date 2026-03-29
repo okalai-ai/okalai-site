@@ -83,10 +83,45 @@ title: Home
     <div class="section-header" data-sr>
       <span class="section-label">Products</span>
       <h2>Research in production</h2>
-      <p class="section-desc">Tools built from our research, deployed for real users.</p>
+      <p class="section-desc">From the first family of Kwanyama LLMs to interactive language tools — our research, deployed for real users.</p>
     </div>
 
     <div class="product-card" data-sr>
+      <div class="product-info">
+        <h3>OkaLM</h3>
+        <p class="product-tagline">Kwanyama Language Models</p>
+        <p>
+          OkaLM is the first family of publicly available large language models for Kwanyama. Available in three sizes (1B, 3B, 8B parameters) to suit different use cases, from lightweight applications to more capable generation.
+        </p>
+        <div class="model-links">
+          <a href="https://huggingface.co/okalai-ai/okalm-1b" class="btn btn-outline" target="_blank" rel="noopener">OkaLM-1B</a>
+          <a href="https://huggingface.co/okalai-ai/okalm-3b" class="btn btn-outline" target="_blank" rel="noopener">OkaLM-3B</a>
+          <a href="https://huggingface.co/okalai-ai/okalm-8b" class="btn btn-outline" target="_blank" rel="noopener">OkaLM-8B</a>
+        </div>
+        <a href="https://huggingface.co/okalai-ai" class="btn btn-primary" target="_blank" rel="noopener" style="margin-top: 1rem;">View on Hugging Face &rarr;</a>
+
+        <div class="try-it" data-sr>
+          <p class="try-it-label">Try it — generate Kwanyama text with OkaLM-8B</p>
+          <div class="try-it-search">
+            <input type="text" id="okalm-input" placeholder="Start typing a Kwanyama phrase..." autocomplete="off" />
+            <button class="btn btn-primary" id="okalm-generate" style="white-space: nowrap;">Generate</button>
+          </div>
+          <div id="okalm-results" class="try-it-results"></div>
+        </div>
+      </div>
+      <div class="product-stats">
+        <div class="stat" data-sr>
+          <span class="stat-number">3</span>
+          <span class="stat-label">Model Sizes</span>
+        </div>
+        <div class="stat" data-sr>
+          <span class="stat-number">1B–8B</span>
+          <span class="stat-label">Parameters</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card" data-sr style="margin-top: 3rem;">
       <div class="product-info">
         <h3>Okalex</h3>
         <p class="product-tagline">Lexicography and Interactive Learning Platform</p>
@@ -122,32 +157,6 @@ title: Home
         <div class="stat" data-sr>
           <span class="stat-number" data-target="2544">0</span>
           <span class="stat-label">Synonyms</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="product-card" data-sr style="margin-top: 3rem;">
-      <div class="product-info">
-        <h3>OkaLM</h3>
-        <p class="product-tagline">Kwanyama Language Models</p>
-        <p>
-          OkaLM is a family of large language models for Kwanyama — the first publicly available LLMs for the language. Available in three sizes to suit different use cases, from lightweight applications to more capable generation.
-        </p>
-        <div class="model-links">
-          <a href="https://huggingface.co/okalai-ai/okalm-1b" class="btn btn-outline" target="_blank" rel="noopener">OkaLM-1B</a>
-          <a href="https://huggingface.co/okalai-ai/okalm-3b" class="btn btn-outline" target="_blank" rel="noopener">OkaLM-3B</a>
-          <a href="https://huggingface.co/okalai-ai/okalm-8b" class="btn btn-outline" target="_blank" rel="noopener">OkaLM-8B</a>
-        </div>
-        <a href="https://huggingface.co/okalai-ai" class="btn btn-primary" target="_blank" rel="noopener" style="margin-top: 1rem;">View on Hugging Face &rarr;</a>
-      </div>
-      <div class="product-stats">
-        <div class="stat" data-sr>
-          <span class="stat-number">3</span>
-          <span class="stat-label">Model Sizes</span>
-        </div>
-        <div class="stat" data-sr>
-          <span class="stat-number">1B–8B</span>
-          <span class="stat-label">Parameters</span>
         </div>
       </div>
     </div>

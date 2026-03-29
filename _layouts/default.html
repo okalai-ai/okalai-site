@@ -192,6 +192,60 @@
         }, 500);
       });
     }
+
+    // OkaLM live generation widget
+    const okalInput = document.getElementById('okalm-input');
+    const okalBtn = document.getElementById('okalm-generate');
+    const okalResults = document.getElementById('okalm-results');
+
+    if (okalBtn && okalInput) {
+      async function generateText() {
+        const prompt = okalInput.value.trim();
+        if (!prompt) return;
+
+        okalBtn.disabled = true;
+        okalBtn.textContent = 'Generating...';
+        okalResults.innerHTML = '<p class="try-it-empty">Generating text with OkaLM-8B...</p>';
+
+        try {
+          const response = await fetch('https://api-inference.huggingface.co/models/okalai-ai/okalm-8b', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              inputs: prompt,
+              parameters: {
+                max_new_tokens: 100,
+                temperature: 0.7,
+                return_full_text: true
+              }
+            })
+          });
+
+          if (response.status === 503) {
+            const data = await response.json();
+            okalResults.innerHTML = '<p class="try-it-empty">Model is loading, please try again in a few seconds...</p>';
+          } else if (!response.ok) {
+            throw new Error('API error');
+          } else {
+            const data = await response.json();
+            const text = Array.isArray(data) ? data[0].generated_text : data.generated_text || '';
+            okalResults.innerHTML = `<div class="try-it-entry">
+              <span class="try-it-def" style="white-space: pre-wrap; font-size: 1rem; line-height: 1.7;">${text}</span>
+            </div>`;
+          }
+        } catch (e) {
+          okalResults.innerHTML = '<p class="try-it-empty">Could not connect to the model. Please try again later.</p>';
+        }
+
+        okalBtn.disabled = false;
+        okalBtn.textContent = 'Generate';
+      }
+
+      okalBtn.addEventListener('click', generateText);
+      okalInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') generateText();
+      });
+    }
   </script>
 </body>
 </html>

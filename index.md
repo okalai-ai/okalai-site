@@ -145,20 +145,6 @@ title: Home
           <div id="okalex-results" class="try-it-results"></div>
         </div>
       </div>
-      <div class="product-stats">
-        <div class="stat" data-sr>
-          <span class="stat-number" data-target="11936">0</span>
-          <span class="stat-label">Dictionary Entries</span>
-        </div>
-        <div class="stat" data-sr>
-          <span class="stat-number" data-target="1116">0</span>
-          <span class="stat-label">Translations</span>
-        </div>
-        <div class="stat" data-sr>
-          <span class="stat-number" data-target="2544">0</span>
-          <span class="stat-label">Synonyms</span>
-        </div>
-      </div>
     </div>
   </div>
 </section>

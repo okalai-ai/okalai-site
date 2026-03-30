@@ -1,13 +1,12 @@
 title: "Okalai"
 description: "Okalai AI"
-url: "https://okalai-ai.github.io/okalai-site"
+url: "https://okalai.org"
 baseurl: ""
-
-
 
 author:
   name: "Okalai Team"
-  
+
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap

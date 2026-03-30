@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://okalai.org/sitemap.xml

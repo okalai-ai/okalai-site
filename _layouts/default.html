@@ -7,8 +7,6 @@
   <meta name="description" content="Okalai AI is an independent research institute building language technology for the world's underserved languages." />
   <meta name="keywords" content="multilingual AI, low-resource languages, NLP, natural language processing, African languages, language technology, multilingual LLM, machine translation, underserved languages, AI research, computational linguistics, Okalai" />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://okalai.org/" />
-
   <!-- Open Graph -->
   <meta property="og:title" content="Okalai AI — Building AI for every language" />
   <meta property="og:description" content="Independent research institute developing multilingual LLMs, datasets, and tools for underserved languages." />
@@ -44,11 +42,19 @@
   </script>
 
   <!-- Preload hero image -->
-  <link rel="preload" href="/assets/images/okalai-hero.png" as="image" />
+  <link rel="preload" href="/assets/images/okalai-hero.jpg" as="image" />
 
   <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="canonical" href="https://okalai.org{{ page.url }}" />
+  <link rel="alternate" hreflang="en" href="https://okalai.org{{ page.url }}" />
+  <link rel="alternate" hreflang="x-default" href="https://okalai.org{{ page.url }}" />
+
   <link rel="icon" href="/assets/images/favicon.png" type="image/png" />
   <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#6c63ff" />
+  <link rel="alternate" type="application/atom+xml" title="Okalai AI Feed" href="/feed.xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -85,14 +91,26 @@
     {{ content }}
   </main>
 
+  <!-- Floating feedback link -->
+  <a href="mailto:feedback@okalai.org?subject=Okalai%20Feedback" class="floating-feedback" title="Send feedback">Feedback</a>
+
   <footer class="footer">
     <div class="container footer-inner">
       <div class="footer-left">
         <span class="footer-logo">Okalai<span class="logo-dot">.</span></span>
         <p>AI research institute.</p>
+        <div class="newsletter-signup">
+          <p class="newsletter-label">Stay updated</p>
+          <form action="https://okalai.us21.list-manage.com/subscribe/post" method="POST" class="newsletter-form" id="newsletter-form">
+            <input type="email" name="EMAIL" placeholder="your@email.com" required class="newsletter-input" />
+            <button type="submit" class="btn btn-primary newsletter-btn">Subscribe</button>
+          </form>
+        </div>
       </div>
       <div class="footer-links">
         <a href="https://github.com/okalai-ai" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://huggingface.co/okalai-ai" target="_blank" rel="noopener">Hugging Face</a>
+        <a href="/feed.xml" title="RSS Feed">RSS</a>
       </div>
       <div class="footer-right">
         <p>&copy; <span id="year"></span> Okalai AI</p>

@@ -162,27 +162,3 @@ title: Home
     </div>
   </div>
 </section>
-
-<section id="people" class="section">
-  <div class="container">
-    <div class="section-header" data-sr>
-      <span class="section-label">People</span>
-      <h2>Who we are</h2>
-    </div>
-    <div class="people-grid">
-      <div class="person-card" data-sr>
-        <div class="person-info">
-          <h3>Ndapa Nakashole</h3>
-          <p class="person-role">Founder &amp; Research Lead</p>
-          <p class="person-bio">
-            Associate Professor of Computer Science | University of California, San Diego
-          </p>
-          <div class="person-links">
-            <a href="https://ndapa.us" target="_blank" rel="noopener">Website</a>
-            <a href="https://github.com/okalai-ai" target="_blank" rel="noopener">GitHub</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>

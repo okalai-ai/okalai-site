@@ -786,20 +786,6 @@ a {
 .worm-wrap { animation: wormInch 2.5s ease-in-out infinite; }
 .worm-wrap svg { width: 120px; height: 70px; }
 
-/* Speech bubble */
-.worm-bubble {
-  position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%);
-  background: rgba(255,255,255,0.95); color: #b8860b; font-size: 0.7rem; font-weight: 600;
-  padding: 0.3rem 0.6rem; border-radius: 10px; white-space: nowrap;
-  box-shadow: 0 2px 8px rgba(251,188,4,0.2); border: 1px solid rgba(251,188,4,0.3);
-  opacity: 0; transition: opacity 0.4s; pointer-events: none;
-}
-.worm-bubble.visible { opacity: 1; }
-.worm-bubble::after {
-  content: ''; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
-  border: 5px solid transparent; border-top-color: rgba(255,255,255,0.95);
-}
-
 /* Inching motion */
 @keyframes wormInch {
   0%, 100% { transform: translateX(0); }

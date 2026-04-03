@@ -146,7 +146,6 @@
         <a href="/feed.xml" title="RSS Feed">RSS</a>
         <!-- Horizontal animated Kaungu -->
         <div class="worm-scene worm-scene--footer">
-          <div class="worm-bubble" id="wormBubble"></div>
           <div class="worm-wrap">
             <svg viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
               <!-- Body segments (Google colors) -->
@@ -375,58 +374,13 @@
       });
     }
 
-    // Kaungu worm speech bubble
+    // Kaungu hover wiggle
     (function() {
-      const bubble = document.getElementById('wormBubble');
-      const wrap = bubble && bubble.parentElement.querySelector('.worm-wrap');
-      if (!bubble || !wrap) return;
-
-      const messages = [
-        'Building AI for every language!',
-        'Mopane worms are a delicacy!',
-        'Oshikwanyama is beautiful.',
-        'Did you try OkaLex?',
-        'Languages are treasures.',
-        'I speak 6 Bantu languages!',
-        'Kaungu means mopane worm.',
-      ];
-
-      let idleTimer, msgTimer;
-
-      function show(text) {
-        bubble.textContent = text;
-        bubble.classList.add('visible');
-        wrap.classList.add('wiggle');
-        setTimeout(() => wrap.classList.remove('wiggle'), 500);
-        clearTimeout(msgTimer);
-        msgTimer = setTimeout(() => bubble.classList.remove('visible'), 5000);
-      }
-
-      function startIdle() {
-        clearTimeout(idleTimer);
-        idleTimer = setTimeout(() => {
-          show(messages[Math.floor(Math.random() * messages.length)]);
-          startIdle();
-        }, (20 + Math.random() * 10) * 1000);
-      }
-
-      function onInteract() {
-        bubble.classList.remove('visible');
-        clearTimeout(idleTimer);
-        setTimeout(startIdle, 8000);
-      }
-
-      // First visit greeting
-      if (!localStorage.getItem('kaungu-hello')) {
-        setTimeout(() => { show('Hello, I am Kaungu!'); localStorage.setItem('kaungu-hello', '1'); }, 2000);
-      }
-
-      startIdle();
-      ['click', 'scroll', 'keydown'].forEach(e => document.addEventListener(e, onInteract, { passive: true }));
-
-      // Hover wiggle
+      const wrap = document.querySelector('.worm-wrap');
+      if (!wrap) return;
       wrap.addEventListener('mouseenter', () => { wrap.classList.add('peek'); });
-      wrap.addEventListener('animationend', () => { wrap.classList.remove('peek', 'wiggle'); });
+      wrap.addEventListener('animationend', () => { wrap.classList.remove('peek'); });
+
     })();
   </script>
 </body>

@@ -155,7 +155,7 @@ title: Home
         <p>
           For schools, linguists, and anyone exploring Bantu languages.
         </p>
-        <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Visit Okalex &rarr;</a>
+        <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Visit OkaLex &rarr;</a>
       </div>
       <div class="try-it" data-sr>
         <p class="try-it-label">Try it — search a word</p>

@@ -9,7 +9,7 @@ title: Home
       <div class="hero-badge" data-sr>Applied AI Research</div>
       <h1 data-sr>Building AI for every language.</h1>
       <p class="hero-sub" data-sr>
-        We research and build language technology where today's LLMs fall short —
+        We research and build language technology where today's LLMs fall short,
         the thousands of languages left behind by state-of-the-art AI.
       </p>
       <div class="hero-cta" data-sr>
@@ -29,7 +29,7 @@ title: Home
     <div class="news-items">
       <div class="news-item">
         <span class="news-date">Mar 2026</span>
-        <span class="news-text">OkaLex — African language reference and learning platform for Bantu languages</span>
+        <span class="news-text">African language reference and learning platform for Bantu languages</span>
         <a href="https://okalex.org" class="news-link" target="_blank" rel="noopener">Visit &rarr;</a>
       </div>
       <div class="news-item">
@@ -104,7 +104,7 @@ title: Home
     <div class="section-header" data-sr>
       <span class="section-label">Products</span>
       <h2>Research in production</h2>
-      <p class="section-desc">From the first family of Kwanyama LLMs to interactive language tools — our research, deployed for real users.</p>
+      <p class="section-desc">From the first family of Kwanyama LLMs to interactive language tools, our research, deployed for real users.</p>
     </div>
 
     <div class="product-card" data-sr>
@@ -147,13 +147,13 @@ title: Home
         <h3>Okalex</h3>
         <p class="product-tagline">African Language Reference and Learning Platform</p>
         <p>
-          OkaLex is a digital language reference and interactive learning platform for Bantu languages. It currently features bilingual dictionaries for six languages: Kwanyama, Ndonga, Umbundu, Sukuma, Xhosa, and Zulu — each with translations, definitions, parts of speech, and example sentences.
+          OkaLex is a  language reference and interactive learning platform for Bantu languages. It currently features bilingual dictionaries for six languages: Kwanyama, Ndonga, Umbundu, Sukuma, Xhosa, and Zulu — each with translations, definitions, parts of speech, and example sentences.
         </p>
         <p>
-          Each language includes interactive quizzes, flashcards, and a word-matching game for vocabulary practice. The  language learning component is  most developed for Kwanyama, with nearly 50 grammar modules.
+          Each language includes interactive quizzes, flashcards, and a word-matching game for vocabulary practice. The  language learning aspect is  most developed for Kwanyama, with nearly 50 grammar modules.
         </p>
         <p>
-          A resource for schools, linguists, and anyone exploring Bantu languages.
+          For schools, linguists, and anyone exploring Bantu languages.
         </p>
         <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Visit Okalex &rarr;</a>
       </div>

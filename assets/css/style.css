@@ -42,12 +42,12 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0.5rem;
 }
 
+.logo-group { display: flex; align-items: center; gap: 0.35rem; }
 .kaungu-face { display: flex; align-items: center; flex-shrink: 0; }
-.kaungu-face svg { width: 38px; height: 38px; filter: drop-shadow(0 2px 6px rgba(251,188,4,0.4)); transition: transform 0.3s; }
-.kaungu-face:hover svg { transform: scale(1.15) rotate(-8deg); }
+.kaungu-face svg { width: 26px; height: 26px; filter: drop-shadow(0 1px 3px rgba(251,188,4,0.25)); transition: transform 0.3s; }
+.kaungu-face:hover svg { transform: scale(1.1) rotate(-5deg); }
 
 .logo {
   font-size: 1.4rem;
@@ -778,6 +778,73 @@ a {
 
 .footer-links a:hover {
   color: white;
+}
+
+/* === Kaungu Worm (horizontal animated) === */
+.worm-scene { position: relative; display: inline-flex; align-items: center; }
+.worm-scene--footer { margin-top: 0.6rem; }
+.worm-wrap { animation: wormInch 2.5s ease-in-out infinite; }
+.worm-wrap svg { width: 120px; height: 70px; }
+
+/* Speech bubble */
+.worm-bubble {
+  position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%);
+  background: rgba(255,255,255,0.95); color: #b8860b; font-size: 0.7rem; font-weight: 600;
+  padding: 0.3rem 0.6rem; border-radius: 10px; white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(251,188,4,0.2); border: 1px solid rgba(251,188,4,0.3);
+  opacity: 0; transition: opacity 0.4s; pointer-events: none;
+}
+.worm-bubble.visible { opacity: 1; }
+.worm-bubble::after {
+  content: ''; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
+  border: 5px solid transparent; border-top-color: rgba(255,255,255,0.95);
+}
+
+/* Inching motion */
+@keyframes wormInch {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(3px); }
+}
+
+/* Wiggle (triggered via JS) */
+@keyframes wormWiggle {
+  0%, 100% { transform: translateX(0) rotate(0); }
+  25% { transform: translateX(8px) rotate(5deg); }
+  75% { transform: translateX(-8px) rotate(-5deg); }
+}
+.worm-wrap.wiggle { animation: wormWiggle 0.5s ease-in-out; }
+
+/* Peek (triggered via JS) */
+@keyframes wormPeek {
+  0%, 100% { transform: translateX(0) rotate(0); }
+  30%, 70% { transform: translateX(15px) rotate(8deg); }
+}
+.worm-wrap.peek { animation: wormPeek 1.2s ease-in-out; }
+
+/* Blink */
+@keyframes wormBlink { 0%, 92%, 100% { opacity: 1; } 95%, 97% { opacity: 0; } }
+@keyframes wormBlinkClosed { 0%, 92%, 100% { opacity: 0; } 95%, 97% { opacity: 1; } }
+.worm-eyes-open { animation: wormBlink 4s infinite; }
+.worm-eyes-closed { animation: wormBlinkClosed 4s infinite; }
+
+/* Antenna sway */
+@keyframes antennaSwayL { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(-4deg); } }
+@keyframes antennaSwayR { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(4deg); } }
+.worm-antenna-l { transform-origin: 108px 20px; animation: antennaSwayL 3s ease-in-out infinite; }
+.worm-antenna-r { transform-origin: 120px 20px; animation: antennaSwayR 3.2s ease-in-out infinite; }
+
+/* Leg wave */
+@keyframes legWave { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(8deg); } }
+.worm-leg:nth-child(odd) { transform-origin: top; animation: legWave 1.2s ease-in-out infinite; }
+.worm-leg:nth-child(even) { transform-origin: top; animation: legWave 1.2s ease-in-out infinite 0.6s; }
+
+/* 404 page blink (reuse) */
+.kaungu-404 .kaungu-eyes { animation: wormBlink 4s infinite; }
+.kaungu-404 .kaungu-eyes-closed { animation: wormBlinkClosed 4s infinite; }
+
+@media (max-width: 768px) {
+  .worm-wrap svg { width: 90px; height: 52px; }
+  .worm-bubble { font-size: 0.6rem; }
 }
 
 /* === Responsive === */

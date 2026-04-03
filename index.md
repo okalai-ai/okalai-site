@@ -150,7 +150,7 @@ title: Home
           OkaLex is a digital language reference and interactive learning platform for Bantu languages. It currently features bilingual dictionaries for six languages: Kwanyama, Ndonga, Umbundu, Sukuma, Xhosa, and Zulu — each with translations, definitions, parts of speech, and example sentences.
         </p>
         <p>
-          Each language includes interactive quizzes, flashcards, and a word-matching game for vocabulary practice. The Kwanyama dictionary is the most developed, with nearly 50 grammar modules and a daily proverb feature highlighting Oshikwanyama cultural wisdom.
+          Each language includes interactive quizzes, flashcards, and a word-matching game for vocabulary practice. The  language learning component is  most developed for Kwanyama, with nearly 50 grammar modules.
         </p>
         <p>
           A resource for schools, linguists, and anyone exploring Bantu languages.

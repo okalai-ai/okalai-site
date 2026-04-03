@@ -153,7 +153,7 @@ title: Home
           Each language includes interactive quizzes, flashcards, and a word-matching game for vocabulary practice. The Kwanyama dictionary is the most developed, with nearly 50 grammar modules and a daily proverb feature highlighting Oshikwanyama cultural wisdom.
         </p>
         <p>
-          Built to grow into a practical resource for schools, students, and anyone exploring Bantu languages.
+          A resource for schools, linguists, and anyone exploring Bantu languages.
         </p>
         <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Visit Okalex &rarr;</a>
       </div>

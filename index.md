@@ -144,7 +144,7 @@ title: Home
 
     <div class="product-card" data-sr style="margin-top: 3rem;">
       <div class="product-info">
-        <h3>Okalex</h3>
+        <h3>OkaLex</h3>
         <p class="product-tagline">African Language Reference and Learning Platform</p>
         <p>
           OkaLex is a  language reference and interactive learning platform for Bantu languages. It currently features bilingual dictionaries for six languages: Kwanyama, Ndonga, Umbundu, Sukuma, Xhosa, and Zulu — each with translations, definitions, parts of speech, and example sentences.

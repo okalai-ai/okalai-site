@@ -29,7 +29,7 @@ title: Home
     <div class="news-items">
       <div class="news-item">
         <span class="news-date">Mar 2026</span>
-        <span class="news-text">Okalex launched — the first comprehensive English-Kwanyama digital dictionary and learning platform</span>
+        <span class="news-text">OkaLex — African language reference and learning platform for Bantu languages</span>
         <a href="https://okalex.org" class="news-link" target="_blank" rel="noopener">Visit &rarr;</a>
       </div>
       <div class="news-item">
@@ -145,12 +145,15 @@ title: Home
     <div class="product-card" data-sr style="margin-top: 3rem;">
       <div class="product-info">
         <h3>Okalex</h3>
-        <p class="product-tagline">Lexicography and Interactive Learning Platform</p>
+        <p class="product-tagline">African Language Reference and Learning Platform</p>
         <p>
-          Okalex currently features an Okalai AI novel dataset, the first Kwanyama digital dictionary with nearly 12,000 entries, including translations, definitions, parts of speech, synonyms, and example sentences. Search in both English and Kwanyama, and discover featured entries.
+          OkaLex is a digital language reference and interactive learning platform for Bantu languages. It currently features bilingual dictionaries for six languages: Kwanyama, Ndonga, Umbundu, Sukuma, Xhosa, and Zulu — each with translations, definitions, parts of speech, and example sentences.
         </p>
         <p>
-          For the learning aspect, Okalex includes interactive quizzes and flashcards for vocabulary practice, and a community commenting system so users can flag corrections. Built to scale beyond Kwanyama to other languages (forthcoming).
+          Each language includes interactive quizzes, flashcards, and a word-matching game for vocabulary practice. The Kwanyama dictionary is the most developed, with nearly 50 grammar modules and a daily proverb feature highlighting Oshikwanyama cultural wisdom.
+        </p>
+        <p>
+          Built to grow into a practical resource for schools, students, and anyone exploring Bantu languages.
         </p>
         <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Visit Okalex &rarr;</a>
       </div>

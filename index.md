@@ -185,3 +185,17 @@ title: Home
     </div>
   </div>
 </section>
+
+<section id="about" class="section">
+  <div class="container">
+    <div class="section-header" data-sr>
+      <span class="section-label">About</span>
+      <h2>Who we are</h2>
+    </div>
+    <div data-sr>
+      <p style="font-size: 1.1rem; line-height: 1.8; max-width: 680px;">
+        Okalai AI was founded by <a href="https://ndapa.us" target="_blank" rel="noopener" style="color: #6c63ff; font-weight: 600;">Ndapa Nakashole</a>, who serves as Chief Scientist. Our mission is to research and build language technology for the world's underserved languages.
+      </p>
+    </div>
+  </div>
+</section>

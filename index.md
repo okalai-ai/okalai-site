@@ -194,7 +194,7 @@ title: Home
     </div>
     <div data-sr>
       <p style="font-size: 1.1rem; line-height: 1.8; max-width: 680px;">
-        Okalai AI was founded by <a href="https://ndapa.us" target="_blank" rel="noopener" style="color: #6c63ff; font-weight: 600;">Ndapa Nakashole</a>, who serves as Chief Scientist. Our mission is to research and build language technology for the world's underserved languages.
+        Okalai AI was founded by <a href="https://ndapa.us" target="_blank" rel="noopener" style="color: #6c63ff; font-weight: 600;">Ndapa Nakashole</a>, who serves as Chief Scientist. Ndapa is an Associate Professor of Computer Science at the University of California, San Diego (UCSD). Her research focuses on Natural Language Processing (NLP), and Artificial Intelligence (AI) more broadly.
       </p>
     </div>
   </div>

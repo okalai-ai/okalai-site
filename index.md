@@ -27,8 +27,8 @@ title: Home
 <section id="architecture" class="section">
   <div class="container">
     <div class="section-header" data-sr>
-      <span class="section-label">The Stack</span>
-      <h2>How it fits together</h2>
+      <span class="section-label">R&amp;D</span>
+      <h2>Our Research &amp; Development Stack</h2>
       <p class="section-desc">From research to deployment, each layer builds on the one below.</p>
     </div>
     <div class="stack">

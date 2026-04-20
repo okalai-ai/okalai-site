@@ -30,25 +30,25 @@ title: Home
       <span class="section-label">The Stack</span>
     </div>
     <div class="stack">
-      <a class="stack-item" href="#research" data-sr>
+      <a class="stack-item stack-item--research" href="#research" data-sr>
         <div class="stack-label">Layer 01</div>
         <div class="stack-name">Research</div>
         <div class="stack-deliverable">Publications</div>
         <p class="stack-desc">Foundational research that defines the principles and methods behind our systems.</p>
       </a>
-      <a class="stack-item" href="#models" data-sr>
+      <a class="stack-item stack-item--models" href="#models" data-sr>
         <div class="stack-label">Layer 02</div>
         <div class="stack-name">Models</div>
         <div class="stack-deliverable">OkaLM</div>
         <p class="stack-desc">Language models and other machine learning models for underrepresented languages and settings.</p>
       </a>
-      <a class="stack-item" href="#tools" data-sr>
+      <a class="stack-item stack-item--tools" href="#tools" data-sr>
         <div class="stack-label">Layer 03</div>
         <div class="stack-name">Tools and Data</div>
         <div class="stack-deliverable">OkaLex</div>
         <p class="stack-desc">Data and interactive tools built on top of the models and novel datasets for learning, exploration, and practical use.</p>
       </a>
-      <a class="stack-item" href="#applications" data-sr>
+      <a class="stack-item stack-item--applications" href="#applications" data-sr>
         <div class="stack-label">Layer 04</div>
         <div class="stack-name">Applications</div>
         <div class="stack-deliverable">Coming soon</div>

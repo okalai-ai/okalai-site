@@ -6,77 +6,17 @@ permalink: /404.html
 
 <section class="hero" style="min-height: 60vh; display: flex; align-items: center;">
   <div class="container" style="text-align: center;">
-    <!-- Full-body Kaungu with blink -->
-    <svg class="kaungu-404" viewBox="0 0 120 200" xmlns="http://www.w3.org/2000/svg" style="width: 140px; margin-bottom: 1.5rem;">
-      <!-- Body segments -->
-      <ellipse cx="60" cy="170" rx="18" ry="14" fill="#f0a500"/>
-      <ellipse cx="60" cy="148" rx="20" ry="14" fill="#FBBC04"/>
-      <ellipse cx="60" cy="126" rx="21" ry="14" fill="#f0a500"/>
-      <ellipse cx="60" cy="104" rx="22" ry="15" fill="#FBBC04"/>
-      <ellipse cx="60" cy="82" rx="22" ry="15" fill="#f0a500"/>
-      <!-- Tiny feet on each segment -->
-      <ellipse cx="38" cy="170" rx="5" ry="3" fill="#e8960a"/>
-      <ellipse cx="82" cy="170" rx="5" ry="3" fill="#e8960a"/>
-      <ellipse cx="36" cy="148" rx="5" ry="3" fill="#e8960a"/>
-      <ellipse cx="84" cy="148" rx="5" ry="3" fill="#e8960a"/>
-      <ellipse cx="35" cy="126" rx="5" ry="3" fill="#e8960a"/>
-      <ellipse cx="85" cy="126" rx="5" ry="3" fill="#e8960a"/>
-      <ellipse cx="34" cy="104" rx="6" ry="3" fill="#e8960a"/>
-      <ellipse cx="86" cy="104" rx="6" ry="3" fill="#e8960a"/>
-      <ellipse cx="34" cy="82" rx="6" ry="3" fill="#e8960a"/>
-      <ellipse cx="86" cy="82" rx="6" ry="3" fill="#e8960a"/>
-      <!-- Head -->
-      <circle cx="60" cy="54" r="28" fill="#FBBC04"/>
-      <!-- Cheeks -->
-      <circle cx="40" cy="62" r="7" fill="#fde68a" opacity="0.35"/>
-      <circle cx="80" cy="62" r="7" fill="#fde68a" opacity="0.35"/>
-      <!-- Eyes (open state) -->
-      <g class="kaungu-eyes">
-        <circle cx="48" cy="48" r="9" fill="#fff"/>
-        <circle cx="72" cy="48" r="9" fill="#fff"/>
-        <circle cx="50" cy="47" r="5" fill="#1a1a2e"/>
-        <circle cx="74" cy="47" r="5" fill="#1a1a2e"/>
-        <circle cx="52" cy="45" r="2" fill="#fff"/>
-        <circle cx="76" cy="45" r="2" fill="#fff"/>
-      </g>
-      <!-- Eyes (closed state) -->
-      <g class="kaungu-eyes-closed" style="opacity: 0;">
-        <path d="M39 48 Q48 52 57 48" stroke="#1a1a2e" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-        <path d="M63 48 Q72 52 81 48" stroke="#1a1a2e" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-      </g>
-      <!-- Smile -->
-      <path d="M47 63 Q60 75 73 63" stroke="#b8860b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-      <!-- Antennae -->
-      <path d="M48 30 Q42 12 32 6" stroke="#EA4335" stroke-width="3" fill="none" stroke-linecap="round"/>
-      <circle cx="32" cy="6" r="4" fill="#EA4335"/>
-      <path d="M72 30 Q78 12 88 6" stroke="#4285F4" stroke-width="3" fill="none" stroke-linecap="round"/>
-      <circle cx="88" cy="6" r="4" fill="#4285F4"/>
+    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" style="width: 140px; height: 140px; margin-bottom: 1.5rem; filter: drop-shadow(0 4px 12px rgba(108,99,255,0.25));" aria-label="Okalai AI">
+      <rect x="4"  y="8"  width="44" height="11" rx="2.5" fill="#4338ca"/>
+      <rect x="16" y="22" width="44" height="11" rx="2.5" fill="#6c63ff"/>
+      <rect x="4"  y="36" width="44" height="11" rx="2.5" fill="#14b8a6"/>
+      <rect x="16" y="50" width="44" height="11" rx="2.5" fill="#f59e0b"/>
     </svg>
 
     <h1 style="font-size: 5rem; margin-bottom: 0.5rem;">404</h1>
     <p style="font-size: 1.25rem; color: #b0b0c0; margin-bottom: 2rem;">
-      This page doesn't exist — but we're building AI for languages that barely have one.
+      This page doesn't exist — but our work on AI for underrepresented settings does.
     </p>
     <a href="/" class="btn btn-primary">Back to Home</a>
   </div>
 </section>
-
-<style>
-  .kaungu-404 {
-    filter: drop-shadow(0 4px 12px rgba(251,188,4,0.3));
-  }
-  @keyframes kaungu-blink {
-    0%, 92%, 100% { opacity: 1; }
-    95%, 97% { opacity: 0; }
-  }
-  @keyframes kaungu-blink-closed {
-    0%, 92%, 100% { opacity: 0; }
-    95%, 97% { opacity: 1; }
-  }
-  .kaungu-404 .kaungu-eyes {
-    animation: kaungu-blink 4s infinite;
-  }
-  .kaungu-404 .kaungu-eyes-closed {
-    animation: kaungu-blink-closed 4s infinite;
-  }
-</style>

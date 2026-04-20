@@ -29,7 +29,6 @@ title: Home
     <div class="section-header" data-sr>
       <span class="section-label">R&amp;D</span>
       <h2>Our Research &amp; Development Stack</h2>
-      <p class="section-desc">From research to deployment, each layer builds on the one below.</p>
     </div>
     <div class="stack">
       <a class="stack-item" href="#research" data-sr>
@@ -57,7 +56,6 @@ title: Home
         <p class="stack-desc">End-user systems that apply structured language understanding and generation to real-world information problems.</p>
       </div>
     </div>
-    <p class="stack-footnote" data-sr><em>Research grounds the models, models power the tools, and tools enable the applications.</em></p>
   </div>
 </section>
 

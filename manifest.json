@@ -1,7 +1,7 @@
 {
   "name": "Okalai AI",
   "short_name": "Okalai",
-  "description": "Applied AI research lab building AI for every language.",
+  "description": "Applied AI research lab building AI systems for communities and languages underserved by today's state-of-the-art models.",
   "start_url": "/",
   "display": "browser",
   "background_color": "#fafafa",

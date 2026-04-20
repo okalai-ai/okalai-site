@@ -7,10 +7,10 @@ title: Home
   <div class="container hero-columns">
     <div class="hero-inner">
       <div class="hero-badge" data-sr>Applied AI Research</div>
-      <h1 data-sr>Building AI for every language.</h1>
+      <h1 data-sr>AI for underrepresented settings.</h1>
       <p class="hero-sub" data-sr>
-        We research and build language technology where today's LLMs fall short,
-        the thousands of languages left behind by state-of-the-art AI.
+        Applied AI for underrepresented settings. We research and build AI systems
+        for communities and languages underserved by today's state-of-the-art models.
       </p>
       <div class="hero-cta" data-sr>
         <a href="#research" class="btn btn-primary">Our Research</a>

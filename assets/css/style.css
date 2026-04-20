@@ -44,21 +44,17 @@ a {
   align-items: center;
 }
 
-.logo-group { display: flex; align-items: center; gap: 0.35rem; }
-.kaungu-face { display: flex; align-items: center; flex-shrink: 0; }
-.kaungu-face svg { width: 26px; height: 26px; filter: drop-shadow(0 1px 3px rgba(251,188,4,0.25)); transition: transform 0.3s; }
-.kaungu-face:hover svg { transform: scale(1.1) rotate(-5deg); }
+.logo-group { display: flex; align-items: center; gap: 0.6rem; }
+.brand-mark { display: flex; align-items: center; flex-shrink: 0; }
+.brand-mark svg { width: 22px; height: 22px; }
 
 .logo {
-  font-size: 1.4rem;
-  font-weight: 800;
-  letter-spacing: -0.5px;
+  font-family: 'Source Serif 4', 'Source Serif Pro', Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.2px;
   color: white;
   text-decoration: none;
-}
-
-.logo-dot {
-  color: #6c63ff;
 }
 
 .nav-links {
@@ -819,8 +815,9 @@ a {
 }
 
 .footer-logo {
-  font-size: 1.2rem;
-  font-weight: 800;
+  font-family: 'Source Serif 4', 'Source Serif Pro', Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
   color: white;
 }
 

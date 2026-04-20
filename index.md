@@ -18,11 +18,49 @@ title: Home
       </div>
     </div>
     <div class="hero-image" data-sr aria-hidden="true">
-      <svg viewBox="0 0 280 320" xmlns="http://www.w3.org/2000/svg">
-        <rect x="20" y="52"  width="200" height="42" rx="10" fill="#4338ca"/>
-        <rect x="60" y="110" width="200" height="42" rx="10" fill="#6c63ff"/>
-        <rect x="20" y="168" width="200" height="42" rx="10" fill="#14b8a6"/>
-        <rect x="60" y="226" width="200" height="42" rx="10" fill="#f59e0b"/>
+      <svg viewBox="0 0 320 360" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <filter id="glowIndigo" x="-30%" y="-30%" width="160%" height="160%">
+            <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#4338ca" flood-opacity="0.55"/>
+          </filter>
+          <filter id="glowPurple" x="-30%" y="-30%" width="160%" height="160%">
+            <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#6c63ff" flood-opacity="0.55"/>
+          </filter>
+          <filter id="glowTeal" x="-30%" y="-30%" width="160%" height="160%">
+            <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#14b8a6" flood-opacity="0.6"/>
+          </filter>
+          <filter id="glowAmber" x="-30%" y="-30%" width="160%" height="160%">
+            <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#f59e0b" flood-opacity="0.55"/>
+          </filter>
+          <linearGradient id="gradIndigo" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#5346e0"/>
+            <stop offset="100%" stop-color="#352aa8"/>
+          </linearGradient>
+          <linearGradient id="gradPurple" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#8b82ff"/>
+            <stop offset="100%" stop-color="#4f46e5"/>
+          </linearGradient>
+          <linearGradient id="gradTeal" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#2dd4bf"/>
+            <stop offset="100%" stop-color="#0d9488"/>
+          </linearGradient>
+          <linearGradient id="gradAmber" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#fbbf24"/>
+            <stop offset="100%" stop-color="#c2740a"/>
+          </linearGradient>
+        </defs>
+        <g transform="rotate(-2 150 87)">
+          <rect x="50" y="66" width="200" height="42" rx="10" fill="url(#gradIndigo)" filter="url(#glowIndigo)"/>
+        </g>
+        <g transform="rotate(1.5 170 149)">
+          <rect x="70" y="128" width="200" height="42" rx="10" fill="url(#gradPurple)" filter="url(#glowPurple)"/>
+        </g>
+        <g transform="rotate(-1 150 211)">
+          <rect x="50" y="190" width="200" height="42" rx="10" fill="url(#gradTeal)" filter="url(#glowTeal)"/>
+        </g>
+        <g transform="rotate(2.5 170 273)">
+          <rect x="70" y="252" width="200" height="42" rx="10" fill="url(#gradAmber)" filter="url(#glowAmber)"/>
+        </g>
       </svg>
     </div>
   </div>
@@ -69,6 +107,7 @@ title: Home
       <div class="news-item">
         <span class="news-date">Apr 2026</span>
         <span class="news-text">Paper "Grammar as Control: Modular Language Generation for the Long Tail" accepted at ACL 2026</span>
+        <a href="https://ndapa.us/assets/docs/papers/2026-acl-mtig.pdf" class="news-link" target="_blank" rel="noopener">PDF &rarr;</a>
       </div>
       <div class="news-item">
         <span class="news-date">Mar 2026</span>
@@ -78,6 +117,7 @@ title: Home
       <div class="news-item">
         <span class="news-date">Feb 2026</span>
         <span class="news-text">Paper on Kwanyama LLMs (1B, 3B, 8B) accepted at LREC 2026</span>
+        <a href="https://ndapa.us/assets/docs/papers/2026-lrec-oka.pdf" class="news-link" target="_blank" rel="noopener">PDF &rarr;</a>
       </div>
       <div class="news-item">
         <span class="news-date">Jul 2025</span>

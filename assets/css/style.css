@@ -141,7 +141,6 @@ a {
   width: 100%;
   height: auto;
   display: block;
-  filter: drop-shadow(0 12px 32px rgba(108, 99, 255, 0.2));
 }
 
 .hero-badge {

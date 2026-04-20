@@ -24,6 +24,43 @@ title: Home
   <div class="hero-gradient"></div>
 </section>
 
+<section id="architecture" class="section">
+  <div class="container">
+    <div class="section-header" data-sr>
+      <span class="section-label">The Stack</span>
+      <h2>How it fits together</h2>
+      <p class="section-desc">From research to deployment, each layer builds on the one below.</p>
+    </div>
+    <div class="stack">
+      <a class="stack-item" href="#research" data-sr>
+        <div class="stack-label">Layer 00</div>
+        <div class="stack-name">Research</div>
+        <div class="stack-deliverable">Publications</div>
+        <p class="stack-desc">Core contributions in multilingual and low-resource NLP, including typology-guided adaptation and structured language generation. This layer defines the principles and methods that guide the system.</p>
+      </a>
+      <a class="stack-item" href="#okalm" data-sr>
+        <div class="stack-label">Layer 01</div>
+        <div class="stack-name">Models</div>
+        <div class="stack-deliverable">OkaLM</div>
+        <p class="stack-desc">A family of language models for underrepresented languages, designed to operate across different resource and deployment constraints.</p>
+      </a>
+      <a class="stack-item" href="#okalex" data-sr>
+        <div class="stack-label">Layer 02</div>
+        <div class="stack-name">Tools</div>
+        <div class="stack-deliverable">OkaLex</div>
+        <p class="stack-desc">Interactive language tools built on top of the models, enabling learning, exploration, and practical use.</p>
+      </a>
+      <div class="stack-item stack-item-static" data-sr>
+        <div class="stack-label">Layer 03</div>
+        <div class="stack-name">Applications</div>
+        <div class="stack-deliverable">Coming soon</div>
+        <p class="stack-desc">End-user systems that apply structured language understanding and generation to real-world information problems.</p>
+      </div>
+    </div>
+    <p class="stack-footnote" data-sr><em>Research grounds the models, models power the tools, and tools enable the applications.</em></p>
+  </div>
+</section>
+
 <section id="news" class="news-ticker">
   <div class="container">
     <div class="news-items">
@@ -121,7 +158,7 @@ title: Home
       <p class="section-desc">From the first family of Kwanyama LLMs to interactive language tools, our research, deployed for real users.</p>
     </div>
 
-    <div class="product-card" data-sr>
+    <div id="okalm" class="product-card" data-sr>
       <div class="product-info">
         <h3>OkaLM</h3>
         <p class="product-tagline">Kwanyama Language Models</p>
@@ -147,7 +184,7 @@ title: Home
       </div>
     </div>
 
-    <div class="product-card" data-sr style="margin-top: 3rem;">
+    <div id="okalex" class="product-card" data-sr style="margin-top: 3rem;">
       <div class="product-info">
         <h3>OkaLex</h3>
         <p class="product-tagline">Kwanyama Language Reference and Learning Platform</p>

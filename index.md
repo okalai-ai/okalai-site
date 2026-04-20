@@ -33,7 +33,7 @@ title: Home
       </div>
       <div class="news-item">
         <span class="news-date">Mar 2026</span>
-        <span class="news-text">African language reference and learning platform for Bantu languages</span>
+        <span class="news-text">Kwanyama language reference and learning platform</span>
         <a href="https://okalex.org" class="news-link" target="_blank" rel="noopener">Visit &rarr;</a>
       </div>
       <div class="news-item">
@@ -129,20 +129,11 @@ title: Home
           OkaLM is the first family of publicly available large language models for Kwanyama. Available in three sizes (1B, 3B, 8B parameters) to suit different use cases, from lightweight applications to more capable generation.
         </p>
         <div class="model-links">
-          <a href="https://huggingface.co/okalai-ai/okalm-1b" class="btn btn-outline" target="_blank" rel="noopener">OkaLM-1B</a>
-          <a href="https://huggingface.co/okalai-ai/okalm-3b" class="btn btn-outline" target="_blank" rel="noopener">OkaLM-3B</a>
-          <a href="https://huggingface.co/okalai-ai/okalm-8b" class="btn btn-outline" target="_blank" rel="noopener">OkaLM-8B</a>
+          <a href="https://huggingface.co/okalai-ai/okalm-1b" class="btn btn-outline" target="_blank" rel="noopener">🤗 OkaLM-1B</a>
+          <a href="https://huggingface.co/okalai-ai/okalm-3b" class="btn btn-outline" target="_blank" rel="noopener">🤗 OkaLM-3B</a>
+          <a href="https://huggingface.co/okalai-ai/okalm-8b" class="btn btn-outline" target="_blank" rel="noopener">🤗 OkaLM-8B</a>
         </div>
-        <a href="https://huggingface.co/okalai-ai" class="btn btn-primary" target="_blank" rel="noopener" style="margin-top: 1rem;">View on Hugging Face &rarr;</a>
-
-        <div class="try-it" data-sr>
-          <p class="try-it-label">Try it — generate Kwanyama text with OkaLM-8B</p>
-          <div class="try-it-search">
-            <input type="text" id="okalm-input" placeholder="Start typing a Kwanyama phrase..." autocomplete="off" />
-            <button class="btn btn-primary" id="okalm-generate" style="white-space: nowrap;">Generate</button>
-          </div>
-          <div id="okalm-results" class="try-it-results"></div>
-        </div>
+        <a href="https://huggingface.co/okalai-ai" class="btn btn-primary" target="_blank" rel="noopener" style="margin-top: 1rem;">🤗 View on Hugging Face &rarr;</a>
       </div>
       <div class="product-stats">
         <div class="stat" data-sr>
@@ -159,15 +150,15 @@ title: Home
     <div class="product-card" data-sr style="margin-top: 3rem;">
       <div class="product-info">
         <h3>OkaLex</h3>
-        <p class="product-tagline">African Language Reference and Learning Platform</p>
+        <p class="product-tagline">Kwanyama Language Reference and Learning Platform</p>
         <p>
-          OkaLex is a  language reference and interactive learning platform for Bantu languages. It currently features bilingual dictionaries for six languages: Kwanyama, Ndonga, Umbundu, Sukuma, Xhosa, and Zulu — each with translations, definitions, parts of speech, and example sentences.
+          OkaLex is a Kwanyama language reference and interactive learning platform. It features a bilingual dictionary with translations, definitions, parts of speech, and example sentences.
         </p>
         <p>
-          Each language includes interactive quizzes, flashcards, and a word-matching game for vocabulary practice. The  language learning aspect is  most developed for Kwanyama, with nearly 50 grammar modules.
+          The platform includes interactive quizzes, flashcards, and a word-matching game for vocabulary practice, plus nearly 50 grammar modules for Kwanyama learners.
         </p>
         <p>
-          For schools, linguists, and anyone exploring Bantu languages.
+          For schools, linguists, and anyone exploring Kwanyama.
         </p>
         <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Visit OkaLex &rarr;</a>
       </div>

@@ -13,8 +13,8 @@ title: Home
         for communities and languages underserved by today's state-of-the-art models.
       </p>
       <div class="hero-cta" data-sr>
-        <a href="#research" class="btn btn-primary">Our Research</a>
-        <a href="#products" class="btn btn-outline">See Products</a>
+        <a href="#architecture" class="btn btn-primary">Explore the Stack</a>
+        <a href="#research" class="btn btn-outline">See Our Research</a>
       </div>
     </div>
     <div class="hero-image" data-sr>
@@ -172,12 +172,7 @@ title: Home
         <p>
           OkaLM is the first family of publicly available large language models for Kwanyama. Available in three sizes (1B, 3B, 8B parameters) to suit different use cases, from lightweight applications to more capable generation.
         </p>
-        <div class="model-links">
-          <a href="https://huggingface.co/okalai-ai/okalm-1b" class="btn btn-outline" target="_blank" rel="noopener">🤗 OkaLM-1B</a>
-          <a href="https://huggingface.co/okalai-ai/okalm-3b" class="btn btn-outline" target="_blank" rel="noopener">🤗 OkaLM-3B</a>
-          <a href="https://huggingface.co/okalai-ai/okalm-8b" class="btn btn-outline" target="_blank" rel="noopener">🤗 OkaLM-8B</a>
-        </div>
-        <a href="https://huggingface.co/okalai-ai" class="btn btn-primary" target="_blank" rel="noopener" style="margin-top: 1rem;">🤗 View on Hugging Face &rarr;</a>
+        <a href="https://huggingface.co/okalai-ai" class="btn btn-primary" target="_blank" rel="noopener">🤗 View on Hugging Face &rarr;</a>
       </div>
       <div class="product-stats">
         <div class="stat" data-sr>

@@ -503,13 +503,6 @@ a {
   display: inline-block;
 }
 
-.model-links {
-  display: flex;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-  margin-bottom: 0.5rem;
-}
-
 .product-stats {
   display: flex;
   flex-direction: column;

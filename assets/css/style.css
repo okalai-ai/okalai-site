@@ -132,15 +132,16 @@ a {
 }
 
 .hero-image {
-  flex: 0 0 320px;
+  flex: 0 0 360px;
   position: relative;
   z-index: 1;
 }
 
-.hero-image img {
+.hero-image svg {
   width: 100%;
-  border-radius: 16px;
-  opacity: 0.9;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 12px 32px rgba(108, 99, 255, 0.2));
 }
 
 .hero-badge {

@@ -17,8 +17,13 @@ title: Home
         <a href="#research" class="btn btn-outline">See Our Research</a>
       </div>
     </div>
-    <div class="hero-image" data-sr>
-      <img src="/assets/images/okalai-hero.jpg" alt="Okalai AI" loading="eager" />
+    <div class="hero-image" data-sr aria-hidden="true">
+      <svg viewBox="0 0 280 320" xmlns="http://www.w3.org/2000/svg">
+        <rect x="20" y="52"  width="200" height="42" rx="10" fill="#4338ca"/>
+        <rect x="60" y="110" width="200" height="42" rx="10" fill="#6c63ff"/>
+        <rect x="20" y="168" width="200" height="42" rx="10" fill="#14b8a6"/>
+        <rect x="60" y="226" width="200" height="42" rx="10" fill="#f59e0b"/>
+      </svg>
     </div>
   </div>
   <div class="hero-gradient"></div>
@@ -46,7 +51,7 @@ title: Home
         <div class="stack-label">Layer 03</div>
         <div class="stack-name">Tools and Data</div>
         <div class="stack-deliverable">OkaLex</div>
-        <p class="stack-desc">Data and interactive tools built on top of the models and novel datasets for learning, exploration, and practical use.</p>
+        <p class="stack-desc">Data and interactive tools built on top of our models and datasets, for learning, exploration, and practical use.</p>
       </a>
       <a class="stack-item stack-item--applications" href="#applications" data-sr>
         <div class="stack-label">Layer 04</div>
@@ -193,7 +198,7 @@ title: Home
     <div class="section-header" data-sr>
       <span class="section-label">Layer 03 · Tools and Data</span>
       <h2>Tools and Data</h2>
-      <p class="section-desc">Data and interactive tools built on top of the models and novel datasets. One example from our current work:</p>
+      <p class="section-desc">Data and interactive tools built on top of our models and datasets. One example from our current work:</p>
     </div>
 
     <div id="okalex" class="product-card" data-sr>

@@ -333,6 +333,15 @@ a {
 .stack-item--applications { border-left-color: #f59e0b; }
 .stack-item--applications .stack-label { color: #f59e0b; }
 
+#research .section-label,
+#research .section-header h2 { color: #4338ca; }
+#models .section-label,
+#models .section-header h2 { color: #6c63ff; }
+#tools .section-label,
+#tools .section-header h2 { color: #14b8a6; }
+#applications .section-label,
+#applications .section-header h2 { color: #f59e0b; }
+
 .stack-label {
   font-family: 'Inter', sans-serif;
   font-size: 0.7rem;

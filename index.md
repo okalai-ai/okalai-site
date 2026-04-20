@@ -31,25 +31,25 @@ title: Home
     </div>
     <div class="stack">
       <a class="stack-item" href="#research" data-sr>
-        <div class="stack-label">Layer 00</div>
+        <div class="stack-label">Layer 01</div>
         <div class="stack-name">Research</div>
         <div class="stack-deliverable">Publications</div>
         <p class="stack-desc">Foundational research that defines the principles and methods behind our systems.</p>
       </a>
       <a class="stack-item" href="#models" data-sr>
-        <div class="stack-label">Layer 01</div>
+        <div class="stack-label">Layer 02</div>
         <div class="stack-name">Models</div>
         <div class="stack-deliverable">OkaLM</div>
         <p class="stack-desc">Language models and other machine learning models for underrepresented languages and settings.</p>
       </a>
       <a class="stack-item" href="#tools" data-sr>
-        <div class="stack-label">Layer 02</div>
+        <div class="stack-label">Layer 03</div>
         <div class="stack-name">Tools and Data</div>
         <div class="stack-deliverable">OkaLex</div>
         <p class="stack-desc">Data and interactive tools built on top of the models and novel datasets for learning, exploration, and practical use.</p>
       </a>
       <a class="stack-item" href="#applications" data-sr>
-        <div class="stack-label">Layer 03</div>
+        <div class="stack-label">Layer 04</div>
         <div class="stack-name">Applications</div>
         <div class="stack-deliverable">Coming soon</div>
         <p class="stack-desc">End-user systems that apply our research to real-world problems.</p>
@@ -86,7 +86,7 @@ title: Home
 <section id="research" class="section">
   <div class="container">
     <div class="section-header" data-sr>
-      <span class="section-label">Layer 00 · Research</span>
+      <span class="section-label">Layer 01 · Research</span>
       <h2>Research</h2>
       <p class="section-desc">Foundational research on multilingual and low-resource NLP. Selected publications:</p>
     </div>
@@ -95,6 +95,10 @@ title: Home
       <div class="paper-card" data-sr>
         <div class="paper-venue"><span class="venue-tag">ACL 2026</span></div>
         <h3>Grammar as Control: Modular Language Generation for the Long Tail</h3>
+        <div class="paper-links">
+          <a href="https://ndapa.us/assets/docs/papers/2026-acl-mtig.pdf" class="paper-link" target="_blank" rel="noopener">📄 PDF</a>
+          <a href="https://github.com/okalai-ai/mtig" class="paper-link" target="_blank" rel="noopener">💾 Data</a>
+        </div>
         <div class="cite-block">
           <button class="btn-cite" onclick="this.nextElementSibling.classList.toggle('show')">Cite this work</button>
           <pre class="cite-bibtex">@inproceedings{nakashole2026grammar,
@@ -108,11 +112,17 @@ title: Home
 
       <div class="paper-card" data-sr>
         <div class="paper-venue"><span class="venue-tag">LREC 2026</span></div>
-        <h3>Sentiment Analysis and Language Models for Kwanyama</h3>
+        <h3>Sentiment Analysis and Language Models for <a href="https://okalex.org/" target="_blank" rel="noopener">Oshikwanyama</a></h3>
+        <p class="paper-detail"><em>1B, 3B, and 8B parameter LLMs for <a href="https://okalex.org/" target="_blank" rel="noopener">Oshikwanyama</a></em></p>
+        <div class="paper-links">
+          <a href="https://ndapa.us/assets/docs/papers/2026-lrec-oka.pdf" class="paper-link" target="_blank" rel="noopener">📄 PDF</a>
+          <a href="https://github.com/okalai-ai/okaResource" class="paper-link" target="_blank" rel="noopener">💾 Data</a>
+          <a href="https://huggingface.co/okalai-ai" class="paper-link" target="_blank" rel="noopener">🤗 Hugging Face</a>
+        </div>
         <div class="cite-block">
           <button class="btn-cite" onclick="this.nextElementSibling.classList.toggle('show')">Cite this work</button>
-          <pre class="cite-bibtex">@inproceedings{nakashole2026kwanyama,
-  title={Sentiment Analysis and Language Models for Kwanyama},
+          <pre class="cite-bibtex">@inproceedings{nakashole2026oshikwanyama,
+  title={Sentiment Analysis and Language Models for Oshikwanyama},
   author={Nakashole, Ndapa},
   booktitle={Proceedings of LREC},
   year={2026}
@@ -150,7 +160,7 @@ title: Home
 <section id="models" class="section section-alt">
   <div class="container">
     <div class="section-header" data-sr>
-      <span class="section-label">Layer 01 · Models</span>
+      <span class="section-label">Layer 02 · Models</span>
       <h2>Models</h2>
       <p class="section-desc">Language models and other machine learning models for underrepresented languages and settings. One example from our current work:</p>
     </div>
@@ -186,7 +196,7 @@ title: Home
 <section id="tools" class="section">
   <div class="container">
     <div class="section-header" data-sr>
-      <span class="section-label">Layer 02 · Tools and Data</span>
+      <span class="section-label">Layer 03 · Tools and Data</span>
       <h2>Tools and Data</h2>
       <p class="section-desc">Data and interactive tools built on top of the models and novel datasets. One example from our current work:</p>
     </div>
@@ -224,7 +234,7 @@ title: Home
 <section id="applications" class="section section-alt">
   <div class="container">
     <div class="section-header" data-sr>
-      <span class="section-label">Layer 03 · Applications</span>
+      <span class="section-label">Layer 04 · Applications</span>
       <h2>Applications</h2>
       <p class="section-desc">End-user systems that apply our research to real-world problems. Coming soon.</p>
     </div>

@@ -40,7 +40,7 @@ title: Home
         <div class="stack-label">Layer 01</div>
         <div class="stack-name">Models</div>
         <div class="stack-deliverable">OkaLM</div>
-        <p class="stack-desc">Language models for underrepresented languages and settings.</p>
+        <p class="stack-desc">Language models and other machine learning models for underrepresented languages and settings.</p>
       </a>
       <a class="stack-item" href="#tools" data-sr>
         <div class="stack-label">Layer 02</div>
@@ -152,7 +152,7 @@ title: Home
     <div class="section-header" data-sr>
       <span class="section-label">Layer 01 · Models</span>
       <h2>Models</h2>
-      <p class="section-desc">Language models for underrepresented languages and settings. One example from our current work:</p>
+      <p class="section-desc">Language models and other machine learning models for underrepresented languages and settings. One example from our current work:</p>
     </div>
 
     <div id="okalm" class="product-card" data-sr>

@@ -34,25 +34,25 @@ title: Home
         <div class="stack-label">Layer 00</div>
         <div class="stack-name">Research</div>
         <div class="stack-deliverable">Publications</div>
-        <p class="stack-desc">Core contributions in multilingual and low-resource NLP, including typology-guided adaptation and structured language generation. This layer defines the principles and methods that guide the system.</p>
+        <p class="stack-desc">Foundational research that defines the principles and methods behind our systems.</p>
       </a>
       <a class="stack-item" href="#models" data-sr>
         <div class="stack-label">Layer 01</div>
         <div class="stack-name">Models</div>
         <div class="stack-deliverable">OkaLM</div>
-        <p class="stack-desc">A family of language models for underrepresented languages, designed to operate across different resource and deployment constraints.</p>
+        <p class="stack-desc">Language models for underrepresented languages and settings.</p>
       </a>
       <a class="stack-item" href="#tools" data-sr>
         <div class="stack-label">Layer 02</div>
-        <div class="stack-name">Tools</div>
+        <div class="stack-name">Tools and Data</div>
         <div class="stack-deliverable">OkaLex</div>
-        <p class="stack-desc">Interactive language tools built on top of the models, enabling learning, exploration, and practical use.</p>
+        <p class="stack-desc">Data and interactive tools built on top of the models and novel datasets for learning, exploration, and practical use.</p>
       </a>
       <a class="stack-item" href="#applications" data-sr>
         <div class="stack-label">Layer 03</div>
         <div class="stack-name">Applications</div>
         <div class="stack-deliverable">Coming soon</div>
-        <p class="stack-desc">End-user systems that apply structured language understanding and generation to real-world information problems.</p>
+        <p class="stack-desc">End-user systems that apply our research to real-world problems.</p>
       </a>
     </div>
   </div>
@@ -87,8 +87,8 @@ title: Home
   <div class="container">
     <div class="section-header" data-sr>
       <span class="section-label">Layer 00 · Research</span>
-      <h2>Publications</h2>
-      <p class="section-desc">Our work spans multilingual LLMs, typological adaptation, and low-resource NLP.</p>
+      <h2>Research</h2>
+      <p class="section-desc">Foundational research on multilingual and low-resource NLP. Selected publications:</p>
     </div>
 
     <div class="papers">
@@ -151,8 +151,8 @@ title: Home
   <div class="container">
     <div class="section-header" data-sr>
       <span class="section-label">Layer 01 · Models</span>
-      <h2>OkaLM</h2>
-      <p class="section-desc">A family of language models for underrepresented languages.</p>
+      <h2>Models</h2>
+      <p class="section-desc">Language models for underrepresented languages and settings. One example from our current work:</p>
     </div>
 
     <div id="okalm" class="product-card" data-sr>
@@ -186,9 +186,9 @@ title: Home
 <section id="tools" class="section">
   <div class="container">
     <div class="section-header" data-sr>
-      <span class="section-label">Layer 02 · Tools</span>
-      <h2>OkaLex</h2>
-      <p class="section-desc">Interactive language tools built on top of the models.</p>
+      <span class="section-label">Layer 02 · Tools and Data</span>
+      <h2>Tools and Data</h2>
+      <p class="section-desc">Data and interactive tools built on top of the models and novel datasets. One example from our current work:</p>
     </div>
 
     <div id="okalex" class="product-card" data-sr>
@@ -225,8 +225,8 @@ title: Home
   <div class="container">
     <div class="section-header" data-sr>
       <span class="section-label">Layer 03 · Applications</span>
-      <h2>Coming soon</h2>
-      <p class="section-desc">End-user systems that apply structured language understanding and generation to real-world information problems.</p>
+      <h2>Applications</h2>
+      <p class="section-desc">End-user systems that apply our research to real-world problems. Coming soon.</p>
     </div>
   </div>
 </section>

@@ -27,8 +27,7 @@ title: Home
 <section id="architecture" class="section">
   <div class="container">
     <div class="section-header" data-sr>
-      <span class="section-label">R&amp;D</span>
-      <h2>Our Research &amp; Development Stack</h2>
+      <span class="section-label">The Stack</span>
     </div>
     <div class="stack">
       <a class="stack-item" href="#research" data-sr>
@@ -37,24 +36,24 @@ title: Home
         <div class="stack-deliverable">Publications</div>
         <p class="stack-desc">Core contributions in multilingual and low-resource NLP, including typology-guided adaptation and structured language generation. This layer defines the principles and methods that guide the system.</p>
       </a>
-      <a class="stack-item" href="#okalm" data-sr>
+      <a class="stack-item" href="#models" data-sr>
         <div class="stack-label">Layer 01</div>
         <div class="stack-name">Models</div>
         <div class="stack-deliverable">OkaLM</div>
         <p class="stack-desc">A family of language models for underrepresented languages, designed to operate across different resource and deployment constraints.</p>
       </a>
-      <a class="stack-item" href="#okalex" data-sr>
+      <a class="stack-item" href="#tools" data-sr>
         <div class="stack-label">Layer 02</div>
         <div class="stack-name">Tools</div>
         <div class="stack-deliverable">OkaLex</div>
         <p class="stack-desc">Interactive language tools built on top of the models, enabling learning, exploration, and practical use.</p>
       </a>
-      <div class="stack-item stack-item-static" data-sr>
+      <a class="stack-item" href="#applications" data-sr>
         <div class="stack-label">Layer 03</div>
         <div class="stack-name">Applications</div>
         <div class="stack-deliverable">Coming soon</div>
         <p class="stack-desc">End-user systems that apply structured language understanding and generation to real-world information problems.</p>
-      </div>
+      </a>
     </div>
   </div>
 </section>
@@ -87,7 +86,7 @@ title: Home
 <section id="research" class="section">
   <div class="container">
     <div class="section-header" data-sr>
-      <span class="section-label">Research</span>
+      <span class="section-label">Layer 00 · Research</span>
       <h2>Publications</h2>
       <p class="section-desc">Our work spans multilingual LLMs, typological adaptation, and low-resource NLP.</p>
     </div>
@@ -148,12 +147,12 @@ title: Home
   </div>
 </section>
 
-<section id="products" class="section section-alt">
+<section id="models" class="section section-alt">
   <div class="container">
     <div class="section-header" data-sr>
-      <span class="section-label">Products</span>
-      <h2>Research in production</h2>
-      <p class="section-desc">From the first family of Kwanyama LLMs to interactive language tools, our research, deployed for real users.</p>
+      <span class="section-label">Layer 01 · Models</span>
+      <h2>OkaLM</h2>
+      <p class="section-desc">A family of language models for underrepresented languages.</p>
     </div>
 
     <div id="okalm" class="product-card" data-sr>
@@ -181,8 +180,18 @@ title: Home
         </div>
       </div>
     </div>
+  </div>
+</section>
 
-    <div id="okalex" class="product-card" data-sr style="margin-top: 3rem;">
+<section id="tools" class="section">
+  <div class="container">
+    <div class="section-header" data-sr>
+      <span class="section-label">Layer 02 · Tools</span>
+      <h2>OkaLex</h2>
+      <p class="section-desc">Interactive language tools built on top of the models.</p>
+    </div>
+
+    <div id="okalex" class="product-card" data-sr>
       <div class="product-info">
         <h3>OkaLex</h3>
         <p class="product-tagline">Kwanyama Language Reference and Learning Platform</p>
@@ -208,6 +217,16 @@ title: Home
         </div>
         <div id="okalex-results" class="try-it-results"></div>
       </div>
+    </div>
+  </div>
+</section>
+
+<section id="applications" class="section section-alt">
+  <div class="container">
+    <div class="section-header" data-sr>
+      <span class="section-label">Layer 03 · Applications</span>
+      <h2>Coming soon</h2>
+      <p class="section-desc">End-user systems that apply structured language understanding and generation to real-world information problems.</p>
     </div>
   </div>
 </section>

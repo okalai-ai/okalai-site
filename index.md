@@ -91,7 +91,7 @@ title: Home
       <a class="stack-item stack-item--applications" href="#applications" data-sr>
         <div class="stack-label">Layer 04</div>
         <div class="stack-name">Applications</div>
-        <p class="stack-desc">End-user system for real-world problems.</p>
+        <p class="stack-desc">End-user systems for real-world problems.</p>
       </a>
     </div>
   </div>

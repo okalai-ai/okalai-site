@@ -95,7 +95,7 @@ title: Home
         <div class="stack-label">Layer 04</div>
         <div class="stack-name">Applications</div>
         <div class="stack-deliverable">Namibia Minute</div>
-        <p class="stack-desc">End-user systems that apply our research to real-world problems.</p>
+        <p class="stack-desc">End-user system for real-world problems.</p>
       </a>
     </div>
   </div>
@@ -281,7 +281,7 @@ title: Home
     <div class="section-header" data-sr>
       <span class="section-label">Layer 04 · Applications</span>
       <h2>Applications</h2>
-      <p class="section-desc">End-user systems that apply our research to real-world problems. One example from our current work:</p>
+      <p class="section-desc">End-user system for real-world problems. One example from our current work:</p>
     </div>
 
     <div id="namibia-minute" class="product-card" data-sr>

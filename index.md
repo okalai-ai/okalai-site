@@ -76,25 +76,21 @@ title: Home
       <a class="stack-item stack-item--research" href="#research" data-sr>
         <div class="stack-label">Layer 01</div>
         <div class="stack-name">Research</div>
-        <div class="stack-deliverable">Publications</div>
         <p class="stack-desc">Foundational research that defines the principles and methods behind our systems.</p>
       </a>
       <a class="stack-item stack-item--models" href="#models" data-sr>
         <div class="stack-label">Layer 02</div>
         <div class="stack-name">Models</div>
-        <div class="stack-deliverable">OkaLM</div>
         <p class="stack-desc">Language models and other machine learning models for underrepresented languages and settings.</p>
       </a>
       <a class="stack-item stack-item--tools" href="#tools" data-sr>
         <div class="stack-label">Layer 03</div>
         <div class="stack-name">Tools and Data</div>
-        <div class="stack-deliverable">OkaLex</div>
         <p class="stack-desc">Data and interactive tools built on top of our models and datasets, for learning, exploration, and practical use.</p>
       </a>
       <a class="stack-item stack-item--applications" href="#applications" data-sr>
         <div class="stack-label">Layer 04</div>
         <div class="stack-name">Applications</div>
-        <div class="stack-deliverable">Namibia Minute</div>
         <p class="stack-desc">End-user system for real-world problems.</p>
       </a>
     </div>
@@ -281,7 +277,7 @@ title: Home
     <div class="section-header" data-sr>
       <span class="section-label">Layer 04 · Applications</span>
       <h2>Applications</h2>
-      <p class="section-desc">End-user system for real-world problems. One example from our current work:</p>
+      <p class="section-desc">End-user systems for real-world problems. One example from our current work:</p>
     </div>
 
     <div id="namibia-minute" class="product-card" data-sr>

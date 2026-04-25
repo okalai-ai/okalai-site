@@ -102,11 +102,6 @@ title: Home
     <div class="news-items">
       <div class="news-item">
         <span class="news-date">Apr 2026</span>
-        <span class="news-text">AI-powered news aggregator for Namibia</span>
-        <a href="https://namibiaminute.com/" class="news-link" target="_blank" rel="noopener">Visit &rarr;</a>
-      </div>
-      <div class="news-item">
-        <span class="news-date">Apr 2026</span>
         <span class="news-text">Paper "Grammar as Control: Modular Language Generation for the Long Tail" accepted at ACL 2026</span>
         <a href="https://ndapa.us/assets/docs/papers/2026-acl-mtig.pdf" class="news-link" target="_blank" rel="noopener">PDF &rarr;</a>
       </div>
@@ -250,28 +245,7 @@ title: Home
     <div class="section-header" data-sr>
       <span class="section-label">Layer 04 · Applications</span>
       <h2>Applications</h2>
-      <p class="section-desc">End-user systems for real-world problems. One example from our current work:</p>
-    </div>
-
-    <div id="namibia-minute" class="product-card" data-sr>
-      <div class="product-info">
-        <h3>Namibia Minute</h3>
-        <p class="product-tagline">Daily AI-powered news briefing for Namibia</p>
-        <p>
-          <a href="https://namibiaminute.com/" target="_blank" rel="noopener">News aggregator</a> with entity linking, daily ranked briefing in text and TTS audio, LLM summarization, and same-story clustering across days.
-        </p>
-        <a href="https://namibiaminute.com/" class="btn btn-primary" target="_blank" rel="noopener">Visit Namibia Minute &rarr;</a>
-      </div>
-      <div class="product-stats">
-        <div class="stat" data-sr>
-          <span class="stat-number">Daily</span>
-          <span class="stat-label">Ranked Briefing</span>
-        </div>
-        <div class="stat" data-sr>
-          <span class="stat-number">Text + Audio</span>
-          <span class="stat-label">Delivery Formats</span>
-        </div>
-      </div>
+      <p class="section-desc">End-user systems for real-world problems. Coming soon.</p>
     </div>
   </div>
 </section>

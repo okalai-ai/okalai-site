@@ -15,29 +15,11 @@ title: Research
       <div class="paper-card" data-sr>
         <div class="paper-venue"><span class="venue-tag">ACL 2026</span></div>
         <h3>Grammar as Control: Modular Language Generation for the Long Tail</h3>
-        <div class="cite-block">
-          <button class="btn-cite" onclick="this.nextElementSibling.classList.toggle('show')">Cite this work</button>
-          <pre class="cite-bibtex">@inproceedings{nakashole2026grammar,
-  title={Grammar as Control: Modular Language Generation for the Long Tail},
-  author={Nakashole, Ndapa},
-  booktitle={Proceedings of ACL},
-  year={2026}
-}</pre>
-        </div>
       </div>
 
       <div class="paper-card" data-sr>
         <div class="paper-venue"><span class="venue-tag">LREC 2026</span></div>
         <h3>Sentiment Analysis and Language Models for Kwanyama</h3>
-        <div class="cite-block">
-          <button class="btn-cite" onclick="this.nextElementSibling.classList.toggle('show')">Cite this work</button>
-          <pre class="cite-bibtex">@inproceedings{nakashole2026kwanyama,
-  title={Sentiment Analysis and Language Models for Kwanyama},
-  author={Nakashole, Ndapa},
-  booktitle={Proceedings of LREC},
-  year={2026}
-}</pre>
-        </div>
       </div>
 
       <div class="paper-card" data-sr>
@@ -49,15 +31,6 @@ title: Research
         <div class="paper-links">
           <a href="https://ndapa.us/assets/docs/papers/2025-moi-acl.pdf" class="paper-link">PDF</a>
           <a href="https://github.com/okalai-ai/moimoe" class="paper-link">Data</a>
-        </div>
-        <div class="cite-block">
-          <button class="btn-cite" onclick="this.nextElementSibling.classList.toggle('show')">Cite this work</button>
-          <pre class="cite-bibtex">@inproceedings{nakashole2025typology,
-  title={Typology-Guided Adaptation in Multilingual Models},
-  author={Nakashole, Ndapa},
-  booktitle={Proceedings of ACL},
-  year={2025}
-}</pre>
         </div>
       </div>
     </div>

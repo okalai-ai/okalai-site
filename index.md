@@ -92,7 +92,7 @@ title: Home
       <a class="stack-item stack-item--applications" href="#applications" data-sr>
         <div class="stack-label">Layer 04</div>
         <div class="stack-name">Applications</div>
-        <p class="stack-desc">End-user systems for real-world problems.</p>
+        <p class="stack-desc">Application areas including machine translation, question answering, and structured data representation.</p>
       </a>
     </div>
   </div>
@@ -130,7 +130,7 @@ title: Home
     <div class="section-header" data-sr>
       <span class="section-label">Layer 01 · Research</span>
       <h2>Research</h2>
-      <p class="section-desc">Foundational research on multilingual and low-resource NLP. Selected publications:</p>
+      <p class="section-desc">Foundational research on multilingual NLP and long-tail language modeling. Selected publications:</p>
     </div>
 
     <div class="papers">
@@ -246,7 +246,22 @@ title: Home
     <div class="section-header" data-sr>
       <span class="section-label">Layer 04 · Applications</span>
       <h2>Applications</h2>
-      <p class="section-desc">End-user systems for real-world problems. Coming soon.</p>
+      <p class="section-desc">Application areas we work on for the long tail of languages and domains.</p>
+    </div>
+
+    <div class="app-grid" data-sr>
+      <div class="app-card">
+        <h3>Machine Translation</h3>
+        <p>Translation across long-tail language pairs, including morphologically rich and under-tokenized languages.</p>
+      </div>
+      <div class="app-card">
+        <h3>Question Answering</h3>
+        <p>Open-domain and grounded QA across long-tail languages, with retrieval and generation adapted to sparse-data regimes.</p>
+      </div>
+      <div class="app-card">
+        <h3>Structured Data Representation</h3>
+        <p>Extraction, alignment, and modeling of structured knowledge — entities, relations, and lexicons — across long-tail languages and domains.</p>
+      </div>
     </div>
   </div>
 </section>

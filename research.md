@@ -8,7 +8,7 @@ title: Research
     <div class="section-header" data-sr>
       <span class="section-label">Research</span>
       <h2>Publications</h2>
-      <p class="section-desc">Our work spans multilingual LLMs, typological adaptation, and low-resource NLP.</p>
+      <p class="section-desc">Our work spans multilingual LLMs, typological adaptation, and long-tail NLP.</p>
     </div>
 
     <div class="papers">

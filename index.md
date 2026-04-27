@@ -14,7 +14,7 @@ title: Home
         today's state-of-the-art models.
       </p>
       <div class="hero-cta" data-sr>
-        <a href="#architecture" class="btn btn-primary">Explore the Stack</a>
+        <a href="#architecture" class="btn btn-primary">Explore Our Work</a>
         <a href="#research" class="btn btn-outline">See Our Research</a>
       </div>
     </div>
@@ -71,7 +71,7 @@ title: Home
 <section id="architecture" class="section">
   <div class="container">
     <div class="section-header" data-sr>
-      <span class="section-label">The Stack</span>
+      <span class="section-label">Our Work</span>
     </div>
     <div class="stack">
       <a class="stack-item stack-item--research" href="#research" data-sr>

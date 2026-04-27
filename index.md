@@ -7,10 +7,11 @@ title: Home
   <div class="container hero-columns">
     <div class="hero-inner">
       <div class="hero-badge" data-sr>Applied AI Research</div>
-      <h1 data-sr>AI for underrepresented settings.</h1>
+      <h1 data-sr>AI for the long tail.</h1>
       <p class="hero-sub" data-sr>
-        Applied AI for underrepresented settings. We research and build AI systems
-        for communities and languages underserved by today's state-of-the-art models.
+        We research multilingual model architectures, data representation, and
+        controlled generation for the long tail of languages and domains beyond
+        today's state-of-the-art models.
       </p>
       <div class="hero-cta" data-sr>
         <a href="#architecture" class="btn btn-primary">Explore the Stack</a>
@@ -81,7 +82,7 @@ title: Home
       <a class="stack-item stack-item--models" href="#models" data-sr>
         <div class="stack-label">Layer 02</div>
         <div class="stack-name">Models</div>
-        <p class="stack-desc">Language models and other machine learning models for underrepresented languages and settings.</p>
+        <p class="stack-desc">Language models and other machine learning systems for the long tail of languages and domains.</p>
       </a>
       <a class="stack-item stack-item--tools" href="#tools" data-sr>
         <div class="stack-label">Layer 03</div>
@@ -176,7 +177,7 @@ title: Home
     <div class="section-header" data-sr>
       <span class="section-label">Layer 02 · Models</span>
       <h2>Models</h2>
-      <p class="section-desc">Language models and other machine learning models for underrepresented languages and settings. One example from our current work:</p>
+      <p class="section-desc">Language models and other machine learning systems for the long tail of languages and domains. One example from our current work:</p>
     </div>
 
     <div id="okalm" class="product-card" data-sr>

@@ -274,6 +274,9 @@ title: Home
     </div>
     <div data-sr>
       <p style="font-size: 1.1rem; line-height: 1.8; max-width: 680px;">
+        Okalai grew from <a href="/schools/" style="color: #6c63ff; font-weight: 600;">AI schools</a> for African students into a research program on long-tail languages and domains. We have trained the first-ever LLMs and machine-translation systems for several languages that previously had none.
+      </p>
+      <p style="font-size: 1.1rem; line-height: 1.8; max-width: 680px; margin-top: 1.5rem;">
         Okalai AI was founded by <a href="https://ndapa.us" target="_blank" rel="noopener" style="color: #6c63ff; font-weight: 600;">Ndapa Nakashole</a>, who serves as Chief Scientist. Ndapa is an Associate Professor of Computer Science at the University of California, San Diego (UCSD). Her research focuses on Natural Language Processing (NLP), and Artificial Intelligence (AI) more broadly.
       </p>
       <p style="font-size: 1.1rem; line-height: 1.8; max-width: 680px; margin-top: 1.5rem;">

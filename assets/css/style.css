@@ -733,26 +733,22 @@ a {
 }
 
 /* === Floating Feedback === */
-.floating-feedback {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  background: #6c63ff;
-  color: white;
-  font-size: 0.8rem;
-  font-weight: 600;
-  padding: 0.6rem 1.25rem;
-  border-radius: 100px;
-  z-index: 999;
-  box-shadow: 0 4px 20px rgba(108, 99, 255, 0.4);
-  transition: all 0.2s;
-  text-decoration: none;
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.35rem;
+  text-align: right;
 }
 
-.floating-feedback:hover {
-  background: #5a52d5;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(108, 99, 255, 0.5);
+.footer-contact {
+  font-weight: 600;
+  color: #fff;
+  transition: color 0.2s;
+}
+
+.footer-contact:hover {
+  color: #8b82ff;
 }
 
 /* === Newsletter === */
@@ -983,11 +979,9 @@ a {
     width: 100%;
   }
 
-  .floating-feedback {
-    bottom: 1rem;
-    right: 1rem;
-    font-size: 0.75rem;
-    padding: 0.5rem 1rem;
+  .footer-right {
+    align-items: center;
+    text-align: center;
   }
 }
 

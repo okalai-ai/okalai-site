@@ -8,12 +8,9 @@ description: Okalai AI Schools — annual AI schools bringing students, educator
 <section class="school-page-hero">
   <div class="container">
     <span class="school-eyebrow" data-sr>Okalai AI Schools</span>
-    <h1 data-sr>Teaching AI, year after year.</h1>
+    <h1 data-sr>Our AI events</h1>
     <p class="lead" data-sr>
-      Each year, Okalai brings together students, educators, and industry
-      professionals to build AI skills and grow a community where ideas and
-      insights are exchanged and developed together. What began as an online
-      school in 2022 has since met in person across Namibia.
+      We've held AI events since 2022. They're paused for now.
     </p>
   </div>
 </section>

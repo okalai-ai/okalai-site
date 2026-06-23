@@ -517,13 +517,6 @@ a {
   font-weight: 500;
   color: #0a0f1a;
   letter-spacing: -0.2px;
-  margin-bottom: 0.75rem;
-}
-
-.app-card p {
-  font-size: 0.95rem;
-  color: #555;
-  line-height: 1.65;
   margin: 0;
 }
 

@@ -253,15 +253,12 @@ title: Home
     <div class="app-grid" data-sr>
       <div class="app-card">
         <h3>Machine Translation</h3>
-        <p>Translation across long-tail language pairs, including morphologically rich and under-tokenized languages.</p>
       </div>
       <div class="app-card">
         <h3>Question Answering</h3>
-        <p>Open-domain and grounded QA across long-tail languages, with retrieval and generation adapted to sparse-data regimes.</p>
       </div>
       <div class="app-card">
         <h3>Structured Data Representation</h3>
-        <p>Extraction, alignment, and modeling of structured knowledge — entities, relations, and lexicons — across long-tail languages and domains.</p>
       </div>
     </div>
   </div>

@@ -14,9 +14,8 @@ title: Home
         today's state-of-the-art models.
       </p>
       <div class="hero-cta" data-sr>
-        <a href="#research" class="btn btn-primary">Explore Our Work</a>
-        <a href="#research" class="btn btn-outline">See Our Research</a>
-        <a href="/schools/" class="btn btn-outline">Our Events</a>
+        <a href="#research" class="btn btn-primary">Research</a>
+        <a href="/schools/" class="btn btn-outline">Events</a>
       </div>
     </div>
     <div class="hero-image" data-sr aria-hidden="true">

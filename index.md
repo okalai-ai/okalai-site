@@ -112,6 +112,7 @@ title: Home
       <div class="paper-card" data-sr>
         <div class="paper-venue"><span class="venue-tag">ACL 2026</span></div>
         <h3>Grammar as Control: Modular Language Generation for the Long Tail</h3>
+        <p class="paper-impact">🚀 This work is a major component of our English&ndash;Kwanyama MT system.</p>
         <div class="paper-links">
           <a href="https://ndapa.us/assets/docs/papers/2026-acl-mtig.pdf" class="paper-link" target="_blank" rel="noopener">📄 PDF</a>
           <a href="https://github.com/okalai-ai/mtig" class="paper-link" target="_blank" rel="noopener">💾 Data</a>

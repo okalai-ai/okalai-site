@@ -463,6 +463,17 @@ a {
   line-height: 1.6;
 }
 
+.paper-impact {
+  font-size: 0.9rem;
+  color: #4338ca;
+  background: #f2f1ff;
+  border-left: 3px solid #6c63ff;
+  border-radius: 0 6px 6px 0;
+  padding: 0.6rem 0.85rem;
+  margin-bottom: 1rem;
+  line-height: 1.55;
+}
+
 .paper-author {
   font-size: 0.85rem;
   font-weight: 600;

@@ -217,31 +217,17 @@ title: Home
       <p class="section-desc">Data and interactive tools built on top of our models and datasets. One example from our current work:</p>
     </div>
 
-    <div id="okalex" class="product-card" data-sr>
+    <div id="okalex" class="product-card product-card--single" data-sr>
       <div class="product-info">
-        <h3>OkaLex</h3>
-        <p class="product-tagline">Kwanyama Language Reference and Learning Platform</p>
+        <h3><a href="https://okalex.org/" target="_blank" rel="noopener">OkaLex</a></h3>
+        <p class="product-tagline">Oshikwanyama Translator, Dictionary &amp; Learning Platform</p>
         <p>
-          OkaLex is a Kwanyama language reference and interactive learning platform. It features a bilingual dictionary with translations, definitions, parts of speech, and example sentences.
+          OkaLex is a machine translation system for Oshikwanyama, translating between Oshikwanyama and English. It is paired with a bilingual dictionary of thousands of words, complete with definitions, parts of speech, and example sentences.
         </p>
         <p>
-          The platform includes interactive quizzes, flashcards, and a word-matching game for vocabulary practice, plus nearly 50 grammar modules for Kwanyama learners.
-        </p>
-        <p>
-          For schools, linguists, and anyone exploring Kwanyama.
+          For learners, it adds 50+ grammar modules and interactive games, quizzes, and flashcards for vocabulary practice.
         </p>
         <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Visit OkaLex &rarr;</a>
-      </div>
-      <div class="try-it" data-sr>
-        <p class="try-it-label">Try it — search a word</p>
-        <div class="try-it-search">
-          <input type="text" id="okalex-search" placeholder="e.g. water, mother, sun..." autocomplete="off" />
-          <div class="try-it-toggle">
-            <button class="toggle-btn active" data-lang="en">English</button>
-            <button class="toggle-btn" data-lang="kw">Kwanyama</button>
-          </div>
-        </div>
-        <div id="okalex-results" class="try-it-results"></div>
       </div>
     </div>
   </div>

@@ -14,7 +14,7 @@ title: Home
         today's state-of-the-art models.
       </p>
       <div class="hero-cta" data-sr>
-        <a href="#architecture" class="btn btn-primary">Explore Our Work</a>
+        <a href="#research" class="btn btn-primary">Explore Our Work</a>
         <a href="#research" class="btn btn-outline">See Our Research</a>
         <a href="/schools/" class="btn btn-outline">Our Events</a>
       </div>
@@ -67,36 +67,6 @@ title: Home
     </div>
   </div>
   <div class="hero-gradient"></div>
-</section>
-
-<section id="architecture" class="section">
-  <div class="container">
-    <div class="section-header" data-sr>
-      <span class="section-label">Our Work</span>
-    </div>
-    <div class="stack">
-      <a class="stack-item stack-item--research" href="#research" data-sr>
-        <div class="stack-label">Layer 01</div>
-        <div class="stack-name">Research</div>
-        <p class="stack-desc">Foundational research that defines the principles and methods behind our systems.</p>
-      </a>
-      <a class="stack-item stack-item--models" href="#models" data-sr>
-        <div class="stack-label">Layer 02</div>
-        <div class="stack-name">Models</div>
-        <p class="stack-desc">Language models and other machine learning systems for the long tail of languages and domains.</p>
-      </a>
-      <a class="stack-item stack-item--tools" href="#tools" data-sr>
-        <div class="stack-label">Layer 03</div>
-        <div class="stack-name">Tools and Data</div>
-        <p class="stack-desc">Data and interactive tools built on top of our models and datasets, for learning, exploration, and practical use.</p>
-      </a>
-      <a class="stack-item stack-item--applications" href="#applications" data-sr>
-        <div class="stack-label">Layer 04</div>
-        <div class="stack-name">Applications</div>
-        <p class="stack-desc">Application areas including machine translation, question answering, and structured data representation.</p>
-      </a>
-    </div>
-  </div>
 </section>
 
 <section id="news" class="news-ticker">

@@ -73,7 +73,7 @@ title: Home
     <div class="news-items">
       <div class="news-item">
         <span class="news-date">Jul 2026</span>
-        <span class="news-text">Introduced our first usable English&ndash;Kwanyama machine translation (&gt;30 BLEU / &gt;60 chrF)</span>
+        <span class="news-text">Shipped our machine translation for English&ndash;Kwanyama (&gt;30 BLEU / &gt;60 chrF) on news articles</span>
         <a href="https://okalex.org/" class="news-link" target="_blank" rel="noopener">Visit &rarr;</a>
       </div>
       <div class="news-item">

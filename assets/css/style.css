@@ -532,12 +532,26 @@ a {
   border: 1px solid #e8e8ee;
 }
 
+.product-card--single {
+  grid-template-columns: 1fr;
+}
+
+.product-card--single .product-info p {
+  max-width: 680px;
+}
+
 .product-info h3 {
   font-size: 1.8rem;
   font-weight: 800;
   letter-spacing: -0.5px;
   margin-bottom: 0.25rem;
   color: #0a0f1a;
+}
+
+.product-info h3 a:hover {
+  text-decoration: underline;
+  text-decoration-color: #6c63ff;
+  text-underline-offset: 4px;
 }
 
 .product-tagline {

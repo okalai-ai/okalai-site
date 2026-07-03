@@ -103,6 +103,11 @@ title: Home
   <div class="container">
     <div class="news-items">
       <div class="news-item">
+        <span class="news-date">Jul 2026</span>
+        <span class="news-text">Introduced our first usable English&ndash;Kwanyama machine translation (&gt;30 BLEU / &gt;60 chrF)</span>
+        <a href="https://okalex.org/" class="news-link" target="_blank" rel="noopener">Visit &rarr;</a>
+      </div>
+      <div class="news-item">
         <span class="news-date">Apr 2026</span>
         <span class="news-text">Paper "Grammar as Control: Modular Language Generation for the Long Tail" accepted at ACL 2026</span>
         <a href="https://ndapa.us/assets/docs/papers/2026-acl-mtig.pdf" class="news-link" target="_blank" rel="noopener">PDF &rarr;</a>

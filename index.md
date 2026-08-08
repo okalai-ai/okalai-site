@@ -72,6 +72,11 @@ title: Home
   <div class="container">
     <div class="news-items">
       <div class="news-item">
+        <span class="news-date">Aug 2026</span>
+        <span class="news-text">Expanded our machine translation with three additional languages: Oshindonga, Rukwangali, and Herero</span>
+        <a href="https://okalex.org/" class="news-link" target="_blank" rel="noopener">Visit &rarr;</a>
+      </div>
+      <div class="news-item">
         <span class="news-date">Jul 2026</span>
         <span class="news-text">Shipped our machine translation for English&ndash;Kwanyama (&gt;30 BLEU / &gt;60 chrF) on news articles</span>
         <a href="https://okalex.org/" class="news-link" target="_blank" rel="noopener">Visit &rarr;</a>
@@ -121,8 +126,8 @@ title: Home
 
       <div class="paper-card" data-sr>
         <div class="paper-venue"><span class="venue-tag">LREC 2026</span></div>
-        <h3>Sentiment Analysis and Language Models for <a href="https://okalex.org/" target="_blank" rel="noopener">Oshikwanyama</a></h3>
-        <p class="paper-detail"><em>1B, 3B, and 8B parameter LLMs for <a href="https://okalex.org/" target="_blank" rel="noopener">Oshikwanyama</a></em></p>
+        <h3>Sentiment Analysis and Language Models for <a href="https://okalex.org/" target="_blank" rel="noopener">Kwanyama</a></h3>
+        <p class="paper-detail"><em>1B, 3B, and 8B parameter LLMs for <a href="https://okalex.org/" target="_blank" rel="noopener">Kwanyama</a></em></p>
         <div class="paper-links">
           <a href="https://ndapa.us/assets/docs/papers/2026-lrec-oka.pdf" class="paper-link" target="_blank" rel="noopener">📄 PDF</a>
           <a href="https://github.com/okalai-ai/okaResource" class="paper-link" target="_blank" rel="noopener">💾 Data</a>
@@ -190,9 +195,9 @@ title: Home
     <div id="okalex" class="product-card product-card--single" data-sr>
       <div class="product-info">
         <h3><a href="https://okalex.org/" target="_blank" rel="noopener">OkaLex</a></h3>
-        <p class="product-tagline">Oshikwanyama Translator, Dictionary &amp; Learning Platform</p>
+        <p class="product-tagline">Namibian Language Translator, Dictionary &amp; Learning Platform</p>
         <p>
-          OkaLex is a machine translation system for Oshikwanyama, translating between Oshikwanyama and English. It is paired with a bilingual dictionary of thousands of words, complete with definitions, parts of speech, and example sentences.
+          OkaLex is a machine translation system for Namibian languages, translating between English and Oshikwanyama, Oshindonga, Rukwangali, and Herero. It is paired with a bilingual dictionary of thousands of words, complete with definitions, parts of speech, and example sentences.
         </p>
         <p>
           For learners, it adds 50+ grammar modules and interactive games, quizzes, and flashcards for vocabulary practice.

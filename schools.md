@@ -2,7 +2,7 @@
 layout: default
 title: Okalai AI Schools
 permalink: /schools/
-description: Okalai AI Schools — annual AI schools bringing students, educators, and industry professionals together to build AI skills, from the 2022 inaugural online school to the 2024 Namib AI Winter School.
+description: Okalai AI Schools: annual AI schools bringing students, educators, and industry professionals together to build AI skills, from the 2022 inaugural online school to the 2024 Namib AI Winter School.
 ---
 
 <section class="school-page-hero">
@@ -38,7 +38,7 @@ description: Okalai AI Schools — annual AI schools bringing students, educator
         <div class="school-card__year">2022</div>
         <div class="school-card__name">Inaugural AI School</div>
         <div class="school-card__where" style="color:#4338ca">Online &middot; March 13&ndash;18</div>
-        <p class="school-card__desc">The first Okalai Southern Africa AI School &mdash; a virtual mini-course on math for AI and core machine learning through NLP.</p>
+        <p class="school-card__desc">The first Okalai Southern Africa AI School: a virtual mini-course on math for AI and core machine learning through NLP.</p>
         <span class="school-card__more">View the school &rarr;</span>
       </a>
     </div>

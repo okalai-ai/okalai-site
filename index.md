@@ -113,33 +113,35 @@ title: Home
       <p class="section-desc">Foundational research on multilingual NLP and long-tail language modeling. Selected publications:</p>
     </div>
 
-    <div class="papers">
-      <div class="paper-card" data-sr>
-        <div class="paper-venue"><span class="venue-tag">ACL 2026</span></div>
-        <h3>Grammar as Control: Modular Language Generation for the Long Tail</h3>
+    <div class="paper-list">
+      <div class="paper-row" data-sr>
+        <div class="paper-main">
+          <h3 class="paper-title"><a href="https://ndapa.us/assets/docs/papers/2026-acl-mtig.pdf" target="_blank" rel="noopener">Grammar as Control: Modular Language Generation for the Long Tail</a></h3>
+          <div class="paper-meta"><span class="venue-tag">ACL 2026</span></div>
+        </div>
         <div class="paper-links">
-          <a href="https://ndapa.us/assets/docs/papers/2026-acl-mtig.pdf" class="paper-link" target="_blank" rel="noopener">📄 PDF</a>
-          <a href="https://github.com/okalai-ai/mtig" class="paper-link" target="_blank" rel="noopener">💾 Data</a>
+          <a href="https://ndapa.us/assets/docs/papers/2026-acl-mtig.pdf" class="paper-link" target="_blank" rel="noopener">PDF</a>
+          <a href="https://github.com/okalai-ai/mtig" class="paper-link" target="_blank" rel="noopener">Data</a>
         </div>
       </div>
 
-      <div class="paper-card" data-sr>
-        <div class="paper-venue"><span class="venue-tag">LREC 2026</span></div>
-        <h3>Sentiment Analysis and Language Models for <a href="https://okalex.org/" target="_blank" rel="noopener">Kwanyama</a></h3>
-        <p class="paper-detail"><em>1B, 3B, and 8B parameter LLMs for <a href="https://okalex.org/" target="_blank" rel="noopener">Kwanyama</a></em></p>
+      <div class="paper-row" data-sr>
+        <div class="paper-main">
+          <h3 class="paper-title"><a href="https://ndapa.us/assets/docs/papers/2026-lrec-oka.pdf" target="_blank" rel="noopener">Sentiment Analysis and Language Models for Kwanyama</a></h3>
+          <div class="paper-meta"><span class="venue-tag">LREC 2026</span><span class="paper-detail">1B, 3B, and 8B parameter LLMs for Kwanyama</span></div>
+        </div>
         <div class="paper-links">
-          <a href="https://ndapa.us/assets/docs/papers/2026-lrec-oka.pdf" class="paper-link" target="_blank" rel="noopener">📄 PDF</a>
-          <a href="https://github.com/okalai-ai/okaResource" class="paper-link" target="_blank" rel="noopener">💾 Data</a>
-          <a href="https://huggingface.co/okalai-ai" class="paper-link" target="_blank" rel="noopener">🤗 Hugging Face</a>
+          <a href="https://ndapa.us/assets/docs/papers/2026-lrec-oka.pdf" class="paper-link" target="_blank" rel="noopener">PDF</a>
+          <a href="https://github.com/okalai-ai/okaResource" class="paper-link" target="_blank" rel="noopener">Data</a>
+          <a href="https://huggingface.co/okalai-ai" class="paper-link" target="_blank" rel="noopener">Hugging Face</a>
         </div>
       </div>
 
-      <div class="paper-card" data-sr>
-        <div class="paper-venue">
-          <span class="venue-tag">ACL 2025</span>
-          <span class="award-tag">Outstanding Paper Award</span>
+      <div class="paper-row" data-sr>
+        <div class="paper-main">
+          <h3 class="paper-title"><a href="https://ndapa.us/assets/docs/papers/2025-moi-acl.pdf" target="_blank" rel="noopener">Typology-Guided Adaptation in Multilingual Models</a></h3>
+          <div class="paper-meta"><span class="venue-tag">ACL 2025</span><span class="award-tag">Outstanding Paper Award</span></div>
         </div>
-        <h3>Typology-Guided Adaptation in Multilingual Models</h3>
         <div class="paper-links">
           <a href="https://ndapa.us/assets/docs/papers/2025-moi-acl.pdf" class="paper-link">PDF</a>
           <a href="https://github.com/okalai-ai/moimoe" class="paper-link">Data</a>
@@ -223,7 +225,7 @@ title: Home
         <h3><a href="https://github.com/okalai-ai" target="_blank" rel="noopener">Datasets</a></h3>
         <p class="product-tagline">Open Data</p>
         <p>
-          We collect and openly release datasets for languages with little or no existing data: parallel text, annotated corpora, and evaluation sets that our models are trained and measured on. All available on GitHub.
+          We collect and openly release datasets for languages with little or no existing data. Available on GitHub.
         </p>
         <a href="https://github.com/okalai-ai" class="btn btn-primary" target="_blank" rel="noopener">Browse on GitHub &rarr;</a>
       </div>

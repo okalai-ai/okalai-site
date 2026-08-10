@@ -160,14 +160,14 @@ title: Home
       <p class="section-desc">Machine translation and language models for the long tail of languages and domains. From our current work:</p>
     </div>
 
-    <div id="okalex" class="product-card" data-sr>
+    <div id="okamt" class="product-card" data-sr>
       <div class="product-info">
-        <h3><a href="https://okalex.org/" target="_blank" rel="noopener">OkaLex</a></h3>
+        <h3>OkaMT</h3>
         <p class="product-tagline">Machine Translation</p>
         <p>
-          We introduced machine translation for four languages not currently supported by commercial systems, translating each to and from English. Oshikwanyama is our strongest.
+          We introduced machine translation for four languages not currently supported by commercial systems, translating each to and from English. Oshikwanyama is our strongest. OkaMT is available on <a href="https://okalex.org/" target="_blank" rel="noopener">OkaLex</a>.
         </p>
-        <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Visit OkaLex &rarr;</a>
+        <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Try OkaMT on OkaLex &rarr;</a>
       </div>
       <div class="lang-pairs">
         <div class="lang-pairs-head">Translates &#8644; English</div>
@@ -210,12 +210,12 @@ title: Home
   </div>
 </section>
 
-<section id="tools" class="section">
+<section id="data" class="section">
   <div class="container">
     <div class="section-header" data-sr>
-      <span class="section-label">Layer 03 · Tools and Data</span>
-      <h2>Tools and Data</h2>
-      <p class="section-desc">Datasets and interactive tools built on top of our models. From our current work:</p>
+      <span class="section-label">Layer 03 · Data</span>
+      <h2>Data</h2>
+      <p class="section-desc">Datasets we collect and openly release for the long tail of languages and domains. From our current work:</p>
     </div>
 
     <div id="datasets" class="product-card product-card--single" data-sr>
@@ -228,6 +228,17 @@ title: Home
         <a href="https://github.com/okalai-ai" class="btn btn-primary" target="_blank" rel="noopener">Browse on GitHub &rarr;</a>
       </div>
     </div>
+
+    <div id="lexicon" class="product-card product-card--single" data-sr style="margin-top:1.5rem">
+      <div class="product-info">
+        <h3>Oshikwanyama Lexicon</h3>
+        <p class="product-tagline">Bilingual Dictionary</p>
+        <p>
+          We spent years curating an Oshikwanyama&ndash;English bilingual lexicon. Its first online searchable version is available on <a href="https://okalex.org/" target="_blank" rel="noopener">OkaLex</a>.
+        </p>
+        <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Search on OkaLex &rarr;</a>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -236,7 +247,7 @@ title: Home
     <div class="section-header" data-sr>
       <span class="section-label">Layer 04 · Applications</span>
       <h2>Applications</h2>
-      <p class="section-desc">Application areas where we build first-of-their-kind systems for the long tail of languages and domains.</p>
+      <p class="section-desc">Application areas where we are building first-of-their-kind systems for the long tail of languages and domains.</p>
     </div>
 
     <div class="app-grid" data-sr>

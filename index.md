@@ -236,7 +236,7 @@ title: Home
         <h3>Oshikwanyama Lexicon</h3>
         <p class="product-tagline">Bilingual Dictionary</p>
         <p>
-          We spent years curating an Oshikwanyama&ndash;English bilingual lexicon. Its first online searchable version is available on <a href="https://okalex.org/" target="_blank" rel="noopener">OkaLex</a>.
+          A carefully curated Oshikwanyama&ndash;English bilingual lexicon, now searchable online on <a href="https://okalex.org/" target="_blank" rel="noopener">OkaLex</a>, a first for the language.
         </p>
         <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Search on OkaLex &rarr;</a>
       </div>

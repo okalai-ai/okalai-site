@@ -157,10 +157,37 @@ title: Home
     <div class="section-header" data-sr>
       <span class="section-label">Layer 02 · Models</span>
       <h2>Models</h2>
-      <p class="section-desc">Language models and other machine learning systems for the long tail of languages and domains. One example from our current work:</p>
+      <p class="section-desc">Machine translation and language models for the long tail of languages and domains. From our current work:</p>
     </div>
 
-    <div id="okalm" class="product-card" data-sr>
+    <div id="okalex" class="product-card" data-sr>
+      <div class="product-info">
+        <h3><a href="https://okalex.org/" target="_blank" rel="noopener">OkaLex</a></h3>
+        <p class="product-tagline">Machine Translation</p>
+        <p>
+          We introduced machine translation for four languages not currently supported by commercial systems, translating each to and from English. Oshikwanyama is our strongest.
+        </p>
+        <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Visit OkaLex &rarr;</a>
+      </div>
+      <div class="lang-pairs">
+        <div class="lang-pairs-head">Translates &#8644; English</div>
+        <div class="lang-pair" style="--lc:#4338ca">
+          <span class="lang-name">Oshikwanyama</span>
+          <span class="lang-badge">Strongest</span>
+        </div>
+        <div class="lang-pair" style="--lc:#6c63ff">
+          <span class="lang-name">Oshindonga</span>
+        </div>
+        <div class="lang-pair" style="--lc:#14b8a6">
+          <span class="lang-name">Rukwangali</span>
+        </div>
+        <div class="lang-pair" style="--lc:#f59e0b">
+          <span class="lang-name">Herero</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="okalm" class="product-card" data-sr style="margin-top:1.5rem">
       <div class="product-info">
         <h3>OkaLM</h3>
         <p class="product-tagline">Kwanyama Language Models</p>
@@ -188,17 +215,17 @@ title: Home
     <div class="section-header" data-sr>
       <span class="section-label">Layer 03 · Tools and Data</span>
       <h2>Tools and Data</h2>
-      <p class="section-desc">Data and interactive tools built on top of our models and datasets. One example from our current work:</p>
+      <p class="section-desc">Datasets and interactive tools built on top of our models. From our current work:</p>
     </div>
 
-    <div id="okalex" class="product-card product-card--single" data-sr>
+    <div id="datasets" class="product-card product-card--single" data-sr>
       <div class="product-info">
-        <h3><a href="https://okalex.org/" target="_blank" rel="noopener">OkaLex</a></h3>
-        <p class="product-tagline">Machine Translation</p>
+        <h3><a href="https://github.com/okalai-ai" target="_blank" rel="noopener">Datasets</a></h3>
+        <p class="product-tagline">Open Data</p>
         <p>
-          OkaLex translates to and from English for four languages not currently supported by commercial machine translation: Oshikwanyama, Oshindonga, Rukwangali, and Herero. Oshikwanyama is our strongest.
+          We collect and openly release datasets for languages with little or no existing data: parallel text, annotated corpora, and evaluation sets that our models are trained and measured on. All available on GitHub.
         </p>
-        <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Visit OkaLex &rarr;</a>
+        <a href="https://github.com/okalai-ai" class="btn btn-primary" target="_blank" rel="noopener">Browse on GitHub &rarr;</a>
       </div>
     </div>
   </div>

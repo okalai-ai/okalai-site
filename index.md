@@ -164,12 +164,12 @@ title: Home
 
     <div id="okamt" class="product-card" data-sr>
       <div class="product-info">
-        <h3>OkaMT</h3>
+        <h3>OkaMT-1.3B</h3>
         <p class="product-tagline">Machine Translation</p>
         <p>
-          We introduced machine translation for four languages not currently supported by commercial systems, translating each to and from English. Oshikwanyama is our strongest. OkaMT is available on <a href="https://okalex.org/" target="_blank" rel="noopener">OkaLex</a>.
+          We introduced machine translation for four languages not currently supported by commercial systems, translating each to and from English. Oshikwanyama is our strongest. OkaMT-1.3B is available on <a href="https://okalex.org/" target="_blank" rel="noopener">OkaLex</a>.
         </p>
-        <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Try OkaMT on OkaLex &rarr;</a>
+        <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Try it on OkaLex &rarr;</a>
       </div>
       <div class="lang-pairs">
         <div class="lang-pairs-head">Translates &#8644; English</div>

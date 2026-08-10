@@ -11,7 +11,7 @@ title: Home
       <p class="hero-sub" data-sr>
         We've built the first language models and translation systems for
         languages that had none, through new work on data collection, multilingual
-        architectures, data representation, and controlled generation.
+        architectures, and controlled generation.
       </p>
       <div class="hero-cta" data-sr>
         <a href="#research" class="btn btn-primary">Research</a>

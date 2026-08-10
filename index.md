@@ -7,7 +7,7 @@ title: Home
   <div class="container hero-columns">
     <div class="hero-inner">
       <div class="hero-badge" data-sr>Applied AI Research</div>
-      <h1 data-sr>AI for the long tail.</h1>
+      <h1 data-sr>First-of-their-kind models for the long tail.</h1>
       <p class="hero-sub" data-sr>
         We research multilingual model architectures, data representation, and
         controlled generation for the long tail of languages and domains beyond
@@ -117,7 +117,6 @@ title: Home
       <div class="paper-card" data-sr>
         <div class="paper-venue"><span class="venue-tag">ACL 2026</span></div>
         <h3>Grammar as Control: Modular Language Generation for the Long Tail</h3>
-        <p class="paper-impact">🚀 This work is a major component of our English&ndash;Kwanyama MT system.</p>
         <div class="paper-links">
           <a href="https://ndapa.us/assets/docs/papers/2026-acl-mtig.pdf" class="paper-link" target="_blank" rel="noopener">📄 PDF</a>
           <a href="https://github.com/okalai-ai/mtig" class="paper-link" target="_blank" rel="noopener">💾 Data</a>
@@ -195,12 +194,9 @@ title: Home
     <div id="okalex" class="product-card product-card--single" data-sr>
       <div class="product-info">
         <h3><a href="https://okalex.org/" target="_blank" rel="noopener">OkaLex</a></h3>
-        <p class="product-tagline">Translator, Dictionary &amp; Learning Platform</p>
+        <p class="product-tagline">Machine Translation</p>
         <p>
-          OkaLex is a machine translation system translating between English and Oshikwanyama, Oshindonga, Rukwangali, and Herero. It is paired with a bilingual dictionary of thousands of words, complete with definitions, parts of speech, and example sentences.
-        </p>
-        <p>
-          For learners, it adds 50+ grammar modules and interactive games, quizzes, and flashcards for vocabulary practice.
+          OkaLex translates to and from English for four languages not currently supported by commercial machine translation: Oshikwanyama, Oshindonga, Rukwangali, and Herero. Oshikwanyama is our strongest.
         </p>
         <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Visit OkaLex &rarr;</a>
       </div>
@@ -213,7 +209,7 @@ title: Home
     <div class="section-header" data-sr>
       <span class="section-label">Layer 04 · Applications</span>
       <h2>Applications</h2>
-      <p class="section-desc">Application areas we work on for the long tail of languages and domains.</p>
+      <p class="section-desc">Application areas where we build first-of-their-kind systems for the long tail of languages and domains.</p>
     </div>
 
     <div class="app-grid" data-sr>
@@ -238,7 +234,7 @@ title: Home
     </div>
     <div data-sr>
       <p style="font-size: 1.1rem; line-height: 1.8; max-width: 680px;">
-        Founded in 2021, Okalai held its first <a href="/schools/" style="color: #6c63ff; font-weight: 600;">AI school</a> in 2022 and grew from those schools into a research program on long-tail languages and domains. We have trained the first-ever LLMs and machine-translation systems for several languages that previously had none.
+        Founded in 2021, Okalai held its first <a href="/schools/" style="color: #6c63ff; font-weight: 600;">AI school</a> in 2022 and grew from those schools into a research program building first-of-their-kind models for the long tail of languages and domains. We have trained the first LLMs and machine-translation systems for several languages that previously had none.
       </p>
       <p style="font-size: 1.1rem; line-height: 1.8; max-width: 680px; margin-top: 1.5rem;">
         Okalai AI was founded by <a href="https://ndapa.us" target="_blank" rel="noopener" style="color: #6c63ff; font-weight: 600;">Ndapa Nakashole</a>, who serves as Chief Scientist. Ndapa is an Associate Professor of Computer Science at the University of California, San Diego (UCSD). Her research focuses on Natural Language Processing (NLP), and Artificial Intelligence (AI) more broadly.

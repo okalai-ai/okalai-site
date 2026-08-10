@@ -9,9 +9,9 @@ title: Home
       <div class="hero-badge" data-sr>Applied AI Research</div>
       <h1 data-sr>First-of-their-kind models for the long tail.</h1>
       <p class="hero-sub" data-sr>
-        We research multilingual model architectures, data representation, and
-        controlled generation for the long tail of languages and domains beyond
-        today's state-of-the-art models.
+        We've built the first language models and translation systems for
+        languages that had none, through new work on data collection, multilingual
+        architectures, data representation, and controlled generation.
       </p>
       <div class="hero-cta" data-sr>
         <a href="#research" class="btn btn-primary">Research</a>

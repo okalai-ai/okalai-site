@@ -165,14 +165,17 @@ title: Home
     <div id="okamt" class="product-card" data-sr>
       <div class="product-info">
         <h3>OkaMT-1.3B</h3>
-        <p class="product-tagline">Machine Translation</p>
+        <p class="product-tagline">Machine Translation Model</p>
         <p>
-          We introduced machine translation for four languages not currently supported by commercial systems, translating each to and from English. Oshikwanyama is our strongest. OkaMT-1.3B is available on <a href="https://okalex.org/" target="_blank" rel="noopener">OkaLex</a>.
+          We introduced machine translation for four languages not currently supported by commercial systems. Together with English, OkaMT-1.3B translates between all five, 20 directional pairs in total. Oshikwanyama &#10231; English is our strongest.
         </p>
         <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Try it on OkaLex &rarr;</a>
       </div>
       <div class="lang-pairs">
-        <div class="lang-pairs-head">Translates &#8644; English</div>
+        <div class="lang-pairs-head">5 languages &middot; 20 directional pairs</div>
+        <div class="lang-pair" style="--lc:#334155">
+          <span class="lang-name">English</span>
+        </div>
         <div class="lang-pair" style="--lc:#4338ca">
           <span class="lang-name">Oshikwanyama</span>
           <span class="lang-badge">Strongest</span>

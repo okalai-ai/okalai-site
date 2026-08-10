@@ -195,9 +195,9 @@ title: Home
     <div id="okalex" class="product-card product-card--single" data-sr>
       <div class="product-info">
         <h3><a href="https://okalex.org/" target="_blank" rel="noopener">OkaLex</a></h3>
-        <p class="product-tagline">Namibian Language Translator, Dictionary &amp; Learning Platform</p>
+        <p class="product-tagline">Translator, Dictionary &amp; Learning Platform</p>
         <p>
-          OkaLex is a machine translation system for Namibian languages, translating between English and Oshikwanyama, Oshindonga, Rukwangali, and Herero. It is paired with a bilingual dictionary of thousands of words, complete with definitions, parts of speech, and example sentences.
+          OkaLex is a machine translation system translating between English and Oshikwanyama, Oshindonga, Rukwangali, and Herero. It is paired with a bilingual dictionary of thousands of words, complete with definitions, parts of speech, and example sentences.
         </p>
         <p>
           For learners, it adds 50+ grammar modules and interactive games, quizzes, and flashcards for vocabulary practice.

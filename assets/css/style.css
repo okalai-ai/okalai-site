@@ -476,6 +476,14 @@ a {
   line-height: 1.5;
 }
 
+.paper-note {
+  font-size: 0.88rem;
+  color: #666;
+  line-height: 1.55;
+  margin: 0.5rem 0 0;
+  max-width: 60ch;
+}
+
 .paper-impact {
   font-size: 0.9rem;
   color: #4338ca;

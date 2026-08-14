@@ -118,6 +118,7 @@ title: Home
         <div class="paper-main">
           <h3 class="paper-title"><a href="https://ndapa.us/assets/docs/papers/2026-acl-mtig.pdf" target="_blank" rel="noopener">Grammar as Control: Modular Language Generation for the Long Tail</a></h3>
           <div class="paper-meta"><span class="venue-tag">ACL 2026</span></div>
+          <p class="paper-note">This work enabled our first machine translation (MT) systems from English into four languages: Kwanyama, Oshindonga, Rukwangali, and Herero. None of these are supported in commercial MT systems.</p>
         </div>
         <div class="paper-links">
           <a href="https://ndapa.us/assets/docs/papers/2026-acl-mtig.pdf" class="paper-link" target="_blank" rel="noopener">PDF</a>

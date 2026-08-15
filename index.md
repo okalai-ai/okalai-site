@@ -15,7 +15,7 @@ title: Home
       </p>
       <div class="hero-cta" data-sr>
         <a href="#research" class="btn btn-primary">Research</a>
-        <a href="/schools/" class="btn btn-outline">Events</a>
+        <a href="/schools" class="btn btn-outline">Events</a>
       </div>
     </div>
     <div class="hero-image" data-sr aria-hidden="true">
@@ -278,7 +278,7 @@ title: Home
     </div>
     <div data-sr>
       <p style="font-size: 1.1rem; line-height: 1.8; max-width: 680px;">
-        Founded in 2021, Okalai held its first <a href="/schools/" style="color: #6c63ff; font-weight: 600;">AI school</a> in 2022 and grew from those schools into a research program building first-of-their-kind models for the long tail of languages and domains. We have trained the first LLMs and machine-translation systems for several languages that previously had none.
+        Founded in 2021, Okalai held its first <a href="/schools" style="color: #6c63ff; font-weight: 600;">AI school</a> in 2022 and grew from those schools into a research program building first-of-their-kind models for the long tail of languages and domains. We have trained the first LLMs and machine-translation systems for several languages that previously had none.
       </p>
       <p style="font-size: 1.1rem; line-height: 1.8; max-width: 680px; margin-top: 1.5rem;">
         Okalai AI was founded by <a href="https://ndapa.us" target="_blank" rel="noopener" style="color: #6c63ff; font-weight: 600;">Ndapa Nakashole</a>, who serves as Chief Scientist. Ndapa is an Associate Professor of Computer Science at the University of California, San Diego (UCSD). Her research focuses on Natural Language Processing (NLP), and Artificial Intelligence (AI) more broadly.

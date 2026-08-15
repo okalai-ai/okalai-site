@@ -18,7 +18,7 @@ description: Okalai AI Schools: annual AI schools bringing students, educators, 
 <section class="section">
   <div class="container">
     <div class="school-grid">
-      <a class="school-card" href="/schools/2024/" style="--accent:#f59e0b" data-sr>
+      <a class="school-card" href="/schools/2024" style="--accent:#f59e0b" data-sr>
         <div class="school-card__year">2024</div>
         <div class="school-card__name">Namib AI Winter School</div>
         <div class="school-card__where" style="color:#f59e0b">Otjisazu Guest Farm &middot; July 24&ndash;27</div>
@@ -26,7 +26,7 @@ description: Okalai AI Schools: annual AI schools bringing students, educators, 
         <span class="school-card__more">View the school &rarr;</span>
       </a>
 
-      <a class="school-card" href="/schools/2023/" style="--accent:#14b8a6" data-sr>
+      <a class="school-card" href="/schools/2023" style="--accent:#14b8a6" data-sr>
         <div class="school-card__year">2023</div>
         <div class="school-card__name">AI Day</div>
         <div class="school-card__where">University of Namibia, Windhoek &middot; Sept 1</div>
@@ -34,7 +34,7 @@ description: Okalai AI Schools: annual AI schools bringing students, educators, 
         <span class="school-card__more">View the school &rarr;</span>
       </a>
 
-      <a class="school-card" href="/schools/2022/" style="--accent:#4338ca" data-sr>
+      <a class="school-card" href="/schools/2022" style="--accent:#4338ca" data-sr>
         <div class="school-card__year">2022</div>
         <div class="school-card__name">Inaugural AI School</div>
         <div class="school-card__where" style="color:#4338ca">Online &middot; March 13&ndash;18</div>

@@ -276,7 +276,8 @@ title: Home
       <span class="section-label">About</span>
       <h2>Who we are</h2>
     </div>
-    <div data-sr>
+    <div class="about-grid" data-sr>
+      <div class="about-text">
       <p style="font-size: 1.1rem; line-height: 1.8; max-width: 680px;">
         Founded in 2021, Okalai held its first <a href="/schools" style="color: #6c63ff; font-weight: 600;">AI school</a> in 2022 and grew from those schools into a research program building first-of-their-kind models for the long tail of languages and domains. We have trained the first LLMs and machine-translation systems for several languages that previously had none.
       </p>
@@ -286,6 +287,19 @@ title: Home
       <p style="font-size: 1.1rem; line-height: 1.8; max-width: 680px; margin-top: 1.5rem;">
         Get in touch: <a href="mailto:hello@okalai.org" style="color: #6c63ff; font-weight: 600;">hello@okalai.org</a>
       </p>
+      </div>
+      <figure class="founder-photo">
+        <div class="founder-frame">
+          <img src="/assets/images/founder.jpg" alt="Ndapa Nakashole, founder of Okalai AI" width="640" height="640" loading="lazy" />
+        </div>
+        <figcaption class="founder-note" aria-hidden="true">
+          <span>hi, I&rsquo;m Ndapa!</span>
+          <svg viewBox="0 0 90 70" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 10 C 40 4, 70 20, 72 56" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M62 46 L 72 58 L 81 44" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </figcaption>
+      </figure>
     </div>
   </div>
 </section>

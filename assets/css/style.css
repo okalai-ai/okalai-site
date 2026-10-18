@@ -910,6 +910,112 @@ a {
   border-color: #6c63ff;
 }
 
+/* Founder photo */
+.about-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 4rem;
+  align-items: center;
+}
+
+.founder-photo {
+  position: relative;
+  margin: 0;
+  padding-top: 3rem;
+}
+
+.founder-frame {
+  position: relative;
+  width: 240px;
+  aspect-ratio: 1;
+  margin-left: auto;
+}
+
+/* offset brand ring behind the photo */
+.founder-frame::before {
+  content: "";
+  position: absolute;
+  inset: -14px;
+  border-radius: 50%;
+  border: 2px dashed #6c63ff;
+  transform: translate(10px, 8px);
+  animation: founder-spin 40s linear infinite;
+}
+
+/* small amber dot accent */
+.founder-frame::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  right: -18px;
+  bottom: -6px;
+  border-radius: 50%;
+  background: #f59e0b;
+  opacity: 0.85;
+  z-index: 0;
+}
+
+.founder-frame img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #f9a8d4;
+  box-shadow: 0 0 0 6px #fff, 0 14px 32px rgba(236, 72, 153, 0.25);
+  transition: transform 0.4s ease;
+}
+
+.founder-photo:hover .founder-frame img {
+  transform: rotate(-3deg) scale(1.02);
+}
+
+.founder-note {
+  position: absolute;
+  top: 0;
+  left: -1.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.25rem;
+  color: #db2777;
+  font-family: 'Caveat', cursive;
+  font-size: 1.6rem;
+  line-height: 1;
+  transform: rotate(-6deg);
+  white-space: nowrap;
+}
+
+.founder-note svg {
+  width: 56px;
+  height: 44px;
+  margin-top: 0.6rem;
+}
+
+@keyframes founder-spin {
+  from { transform: translate(10px, 8px) rotate(0deg); }
+  to   { transform: translate(10px, 8px) rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .founder-frame::before { animation: none; }
+}
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2.5rem;
+  }
+  .founder-photo {
+    order: -1;
+    justify-self: center;
+    width: 240px;
+  }
+  .founder-frame { width: 200px; margin: 0 auto; }
+  .founder-note { left: -2.5rem; font-size: 1.4rem; }
+}
+
 /* === Footer === */
 .footer {
   background: #0a0f1a;

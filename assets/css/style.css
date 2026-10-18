@@ -939,7 +939,6 @@ a {
   border-radius: 50%;
   border: 2px dashed #6c63ff;
   transform: translate(10px, 8px);
-  animation: founder-spin 40s linear infinite;
 }
 
 /* small amber dot accent */
@@ -991,15 +990,6 @@ a {
   width: 56px;
   height: 44px;
   margin-top: 0.6rem;
-}
-
-@keyframes founder-spin {
-  from { transform: translate(10px, 8px) rotate(0deg); }
-  to   { transform: translate(10px, 8px) rotate(360deg); }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .founder-frame::before { animation: none; }
 }
 
 @media (max-width: 768px) {

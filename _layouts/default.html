@@ -82,10 +82,11 @@
       </div>
       <nav>
         <ul class="nav-links">
-          <li><a href="/">Home</a></li>
+          <li><a href="/"{% if page.url == "/" %} class="active" aria-current="page"{% endif %}>Home</a></li>
           <li><a href="/#news">News</a></li>
-          <li><a href="/schools">Events</a></li>
+          <li><a href="/schools"{% if page.url contains "/schools" %} class="active" aria-current="page"{% endif %}>Events</a></li>
           <li><a href="/#about">About</a></li>
+          <li><a href="mailto:hello@okalai.org" class="nav-cta">Contact</a></li>
         </ul>
         <button class="mobile-menu-btn" aria-label="Toggle menu">
           <span></span><span></span><span></span>

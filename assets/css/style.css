@@ -89,10 +89,12 @@ a {
 .nav-links {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 2rem;
 }
 
 .nav-links a {
+  position: relative;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 500;
@@ -100,8 +102,47 @@ a {
   transition: color 0.2s;
 }
 
-.nav-links a:hover {
+/* hand-drawn pink underline, drawn in on hover */
+.nav-links a:not(.nav-cta)::after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  right: -2px;
+  bottom: -7px;
+  height: 6px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 8' preserveAspectRatio='none'%3E%3Cpath d='M2 5 C 15 1, 28 7, 40 4 S 54 3, 58 5' fill='none' stroke='%23f472b6' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
   color: #fff;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+  transform: scaleX(1);
+}
+
+.nav-links a.nav-cta {
+  color: #fff;
+  padding: 0.4rem 1rem;
+  border: 1.5px solid #f472b6;
+  border-radius: 999px;
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+
+.nav-links a.nav-cta:hover {
+  background: #f472b6;
+  color: #0a0f1a;
+  transform: rotate(-2deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-links a::after,
+  .nav-links a.nav-cta { transition: none; }
 }
 
 /* Mobile menu button */
@@ -1073,6 +1114,19 @@ a {
 
   .nav-links.open {
     display: flex;
+  }
+
+  .nav-links {
+    align-items: flex-start;
+  }
+
+  .nav-links a:not(.nav-cta)::after {
+    bottom: 6px;
+  }
+
+  .nav-links a.nav-cta {
+    padding: 0.4rem 1.25rem;
+    margin-top: 0.25rem;
   }
 
   .mobile-menu-btn {

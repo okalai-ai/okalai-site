@@ -242,7 +242,7 @@ title: Home
         <p>
           A carefully curated Oshikwanyama&ndash;English bilingual lexicon, now searchable online on <a href="https://okalex.org/" target="_blank" rel="noopener">OkaLex</a>, a first for the language.
         </p>
-        <a href="https://okalex.org/" class="btn btn-primary" target="_blank" rel="noopener">Search on OkaLex &rarr;</a>
+        <a href="https://okalex.org/dictionary.html" class="btn btn-primary" target="_blank" rel="noopener">Search on OkaLex &rarr;</a>
       </div>
     </div>
   </div>

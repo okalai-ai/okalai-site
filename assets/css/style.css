@@ -197,7 +197,7 @@ a {
 }
 
 .hero-image {
-  flex: 0 0 240px;
+  flex: 0 0 120px;
   position: relative;
   z-index: 1;
 }
@@ -1151,7 +1151,7 @@ a {
   .hero-image {
     flex: none;
     width: 100%;
-    max-width: 180px;
+    max-width: 90px;
   }
 
   .hero h1 {

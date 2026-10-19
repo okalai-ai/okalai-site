@@ -199,6 +199,7 @@ a {
 /* Hero card: logo + featured product */
 .hero-card {
   flex: 0 0 300px;
+  margin-left: auto;
   position: relative;
   z-index: 1;
   padding: 1.75rem;
@@ -1230,6 +1231,7 @@ a {
 
   .hero-card {
     flex: none;
+    margin-left: 0;
     width: 100%;
     max-width: 420px;
   }

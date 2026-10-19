@@ -179,7 +179,7 @@ a {
   position: relative;
   background: #0a0f1a;
   color: white;
-  padding: 6rem 0 5rem;
+  padding: 4rem 0 3.5rem;
   overflow: hidden;
 }
 
@@ -214,8 +214,8 @@ a {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: #6c63ff;
-  border: 1px solid rgba(108, 99, 255, 0.3);
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 0.4rem 1rem;
   border-radius: 100px;
   margin-bottom: 1.5rem;
@@ -347,14 +347,30 @@ a {
 }
 
 .section-label {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #6c63ff;
+  color: #6b7280;
   margin-bottom: 0.75rem;
 }
+
+/* layer color dot, matching the bars in the logo */
+.section-label[class*="section-label--"]::before {
+  content: "";
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background: var(--dot);
+}
+.section-label--research     { --dot: #4338ca; }
+.section-label--models       { --dot: #6c63ff; }
+.section-label--data         { --dot: #14b8a6; }
+.section-label--applications { --dot: #f59e0b; }
+.section-label--about        { --dot: #ec4899; }
 
 .section-header h2 {
   font-size: clamp(1.8rem, 3vw, 2.5rem);
@@ -397,15 +413,6 @@ a {
 .stack-item--tools .stack-label { color: #14b8a6; }
 .stack-item--applications { border-left-color: #f59e0b; }
 .stack-item--applications .stack-label { color: #f59e0b; }
-
-#research .section-label,
-#research .section-header h2 { color: #4338ca; }
-#models .section-label,
-#models .section-header h2 { color: #6c63ff; }
-#data .section-label,
-#data .section-header h2 { color: #14b8a6; }
-#applications .section-label,
-#applications .section-header h2 { color: #f59e0b; }
 
 .stack-label {
   font-family: 'Inter', sans-serif;
@@ -1140,7 +1147,7 @@ a {
   }
 
   .hero {
-    padding: 4rem 0 3rem;
+    padding: 3rem 0 2.5rem;
   }
 
   .hero-columns {

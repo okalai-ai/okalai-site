@@ -123,7 +123,7 @@ title: Home
 <section id="research" class="section">
   <div class="container">
     <div class="section-header" data-sr>
-      <span class="section-label">Layer 01 · Research</span>
+      <span class="section-label section-label--research">Layer 01 · Research</span>
       <h2>Research</h2>
       <p class="section-desc">Foundational research on multilingual NLP and long-tail language modeling. Selected publications:</p>
     </div>
@@ -173,7 +173,7 @@ title: Home
 <section id="models" class="section section-alt">
   <div class="container">
     <div class="section-header" data-sr>
-      <span class="section-label">Layer 02 · Models</span>
+      <span class="section-label section-label--models">Layer 02 · Models</span>
       <h2>Models</h2>
       <p class="section-desc">Machine translation and language models for the long tail of languages and domains. From our current work:</p>
     </div>
@@ -234,7 +234,7 @@ title: Home
 <section id="data" class="section">
   <div class="container">
     <div class="section-header" data-sr>
-      <span class="section-label">Layer 03 · Data</span>
+      <span class="section-label section-label--data">Layer 03 · Data</span>
       <h2>Data</h2>
       <p class="section-desc">Datasets we collect and openly release for the long tail of languages and domains. From our current work:</p>
     </div>
@@ -266,7 +266,7 @@ title: Home
 <section id="applications" class="section section-alt">
   <div class="container">
     <div class="section-header" data-sr>
-      <span class="section-label">Layer 04 · Applications</span>
+      <span class="section-label section-label--applications">Layer 04 · Applications</span>
       <h2>Applications</h2>
       <p class="section-desc">Application areas where we are building first-of-their-kind systems for the long tail of languages and domains.</p>
     </div>
@@ -288,7 +288,7 @@ title: Home
 <section id="about" class="section">
   <div class="container">
     <div class="section-header" data-sr>
-      <span class="section-label">About</span>
+      <span class="section-label section-label--about">About</span>
       <h2>Who we are</h2>
     </div>
     <div class="about-grid" data-sr>

@@ -7,7 +7,7 @@ title: Home
   <div class="container hero-columns">
     <div class="hero-inner">
       <div class="hero-badge" data-sr>Applied AI Research</div>
-      <h1 data-sr>First-of-their-kind models for the <span class="squiggle">long tail</span>.</h1>
+      <h1 data-sr>First-of-their-kind models for the long tail.</h1>
       <p class="hero-sub" data-sr>
         We've built the first language models and translation systems for
         languages that had none, through new work on data collection, multilingual

@@ -6,7 +6,7 @@ title: Home
 <section class="hero">
   <div class="container hero-columns">
     <div class="hero-inner">
-      <div class="hero-badge" data-sr>Applied AI Research</div>
+      <div class="hero-badge" data-sr>AI for the long tail</div>
       <h1 class="sr-only">Okalai AI: first-of-their-kind models for the long tail</h1>
       <p class="hero-sub" data-sr>
         We've built the first language models and translation systems for

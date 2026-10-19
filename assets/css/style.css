@@ -196,16 +196,89 @@ a {
   max-width: 620px;
 }
 
-.hero-image {
-  flex: 0 0 60px;
+/* Hero card: logo + featured product */
+.hero-card {
+  flex: 0 0 300px;
   position: relative;
   z-index: 1;
+  padding: 1.75rem;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
 }
 
-.hero-image svg {
+.hero-card-mark {
+  width: 84px;
+  margin-bottom: 1.5rem;
+}
+
+.hero-card-mark svg {
   width: 100%;
   height: auto;
   display: block;
+  overflow: visible;
+}
+
+.hero-card-kicker {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 0.35rem;
+}
+
+.hero-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.hero-card-text {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.65);
+  margin-bottom: 1.25rem;
+}
+
+.hero-card-link {
+  display: inline-block;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #fff;
+  background: #6c63ff;
+  padding: 0.6rem 1.1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.hero-card-link:hover {
+  background: #5a52e0;
+}
+
+/* handwritten note pointing at the button */
+.hero-card-note {
+  position: absolute;
+  right: 1.25rem;
+  bottom: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: 'Caveat', cursive;
+  font-size: 1.35rem;
+  line-height: 1;
+  color: #f472b6;
+  transform: rotate(-4deg);
+}
+
+.hero-card-note svg {
+  width: 38px;
+  height: 30px;
+  margin-right: 1.4rem;
 }
 
 .hero-badge {
@@ -1155,10 +1228,10 @@ a {
     gap: 2rem;
   }
 
-  .hero-image {
+  .hero-card {
     flex: none;
     width: 100%;
-    max-width: 45px;
+    max-width: 420px;
   }
 
   .hero h1 {

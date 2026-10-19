@@ -18,8 +18,9 @@ title: Home
         <a href="/schools" class="btn btn-outline">Events</a>
       </div>
     </div>
-    <div class="hero-image" data-sr aria-hidden="true">
-      <svg viewBox="0 0 320 360" xmlns="http://www.w3.org/2000/svg">
+    <aside class="hero-card" data-sr>
+      <div class="hero-card-mark">
+      <svg viewBox="35 25 250 290" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <defs>
           <filter id="glowIndigo" x="-30%" y="-30%" width="160%" height="160%">
             <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#4338ca" flood-opacity="0.55"/>
@@ -78,7 +79,15 @@ title: Home
           <rect x="70" y="252" width="200" height="42" rx="10" fill="url(#gradAmber)" filter="url(#glowAmber)"/>
         </g>
       </svg>
-    </div>
+      </div>
+      <span class="hero-card-kicker">Featured</span>
+      <h3 class="hero-card-title">OkaMT</h3>
+      <p class="hero-card-text">Machine translation between English, Oshikwanyama, Oshindonga, Rukwangali, and Herero.</p>
+      <a href="https://okalex.org/" class="hero-card-link" target="_blank" rel="noopener">Try the translator &rarr;</a>
+      <span class="hero-card-note" aria-hidden="true">try it!
+        <svg viewBox="0 0 50 40" xmlns="http://www.w3.org/2000/svg"><path d="M44 4 C 40 22, 26 32, 8 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M15 25 L 7 32 L 15 38" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+    </aside>
   </div>
   <div class="hero-gradient"></div>
 </section>

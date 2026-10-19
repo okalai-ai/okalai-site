@@ -54,7 +54,7 @@ a {
 
 .logo-group { display: flex; align-items: center; gap: 0.6rem; }
 .brand-mark { display: flex; align-items: center; flex-shrink: 0; }
-.brand-mark svg { width: 36px; height: 36px; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.25)); }
+.brand-mark svg { width: 30px; height: 30px; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.25)); }
 
 .logo {
   font-family: 'Source Serif 4', 'Source Serif Pro', Georgia, serif;
@@ -69,7 +69,7 @@ a {
   color: #f472b6;
 }
 
-/* Stacked-bars mark as the tittle (dot) of the "i" in Okalai */
+/* Caterpillar as the tittle (dot) of the "i" in Okalai */
 .logo-i {
   position: relative;
   display: inline-block;
@@ -77,10 +77,10 @@ a {
 .logo-i-mark {
   position: absolute;
   left: 50%;
-  top: 0.04em;            /* nudge to sit where the dot would be */
-  transform: translateX(-50%);
-  width: 0.46em;
-  height: 0.5em;
+  top: 0.09em;            /* nudge to sit where the dot would be */
+  transform: translateX(-70%);  /* head sits over the stem, body trails left */
+  width: 0.8em;
+  height: 0.44em;
   pointer-events: none;
 }
 .logo-i-mark svg {

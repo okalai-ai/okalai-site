@@ -52,6 +52,19 @@ title: Home
         </defs>
         <g transform="rotate(-2 150 87)">
           <rect x="50" y="66" width="200" height="42" rx="10" fill="url(#gradIndigo)" filter="url(#glowIndigo)"/>
+          <g class="caterpillar">
+            <g class="seg"><circle cx="92" cy="54" r="11" fill="#6c63ff"/><circle cx="88.5" cy="50" r="2.6" fill="#fff" opacity="0.8"/></g>
+            <g class="seg"><circle cx="114" cy="54" r="11" fill="#14b8a6"/><circle cx="110.5" cy="50" r="2.6" fill="#fff" opacity="0.8"/></g>
+            <g class="seg"><circle cx="136" cy="54" r="11" fill="#f59e0b"/><circle cx="132.5" cy="50" r="2.6" fill="#fff" opacity="0.8"/></g>
+            <g class="seg"><circle cx="158" cy="54" r="11" fill="#6c63ff"/><circle cx="154.5" cy="50" r="2.6" fill="#fff" opacity="0.8"/></g>
+            <g class="seg"><circle cx="180" cy="54" r="11" fill="#14b8a6"/><circle cx="176.5" cy="50" r="2.6" fill="#fff" opacity="0.8"/></g>
+            <g class="seg">
+              <circle cx="206" cy="49" r="15" fill="#ec4899"/>
+              <circle cx="202" cy="44" r="5" fill="#fff"/><circle cx="213" cy="45" r="5" fill="#fff"/>
+              <circle cx="203.5" cy="45" r="2.4" fill="#0a0f1a"/><circle cx="214.5" cy="46" r="2.4" fill="#0a0f1a"/>
+              <path d="M200 57 Q 206 61 212 57" fill="none" stroke="#0a0f1a" stroke-width="1.8" stroke-linecap="round"/>
+            </g>
+          </g>
         </g>
         <g transform="rotate(1.5 170 149)">
           <rect x="70" y="128" width="200" height="42" rx="10" fill="url(#gradPurple)" filter="url(#glowPurple)"/>

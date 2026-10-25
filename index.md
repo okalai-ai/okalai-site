@@ -9,9 +9,9 @@ title: Home
       <div class="hero-badge" data-sr>AI for the long tail</div>
       <h1 class="sr-only">Okalai AI: first-of-their-kind models for the long tail</h1>
       <p class="hero-sub" data-sr>
-        We've built the first language models and translation systems for
-        languages that had none, through new work on data collection, multilingual
-        architectures, and controlled generation.
+        We've built the first <strong>language models</strong>, <strong>translation systems</strong>,
+        and <strong>grammar checkers</strong> for languages that had none, through new work on
+        data collection, multilingual architectures, and controlled generation.
       </p>
       <div class="hero-cta" data-sr>
         <a href="#research" class="btn btn-primary">Research</a>

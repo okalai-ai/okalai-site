@@ -324,6 +324,12 @@ a {
   margin-bottom: 2.5rem;
 }
 
+/* key outputs: brighter than the surrounding text */
+.hero-sub strong {
+  color: #fff;
+  font-weight: 500;
+}
+
 .hero-gradient {
   position: absolute;
   top: -50%;

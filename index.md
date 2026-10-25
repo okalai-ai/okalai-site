@@ -81,12 +81,19 @@ title: Home
       </svg>
       </div>
       <span class="hero-card-kicker">Featured</span>
-      <h3 class="hero-card-title">OkaMT</h3>
-      <p class="hero-card-text">Machine translation between English, Oshikwanyama, Oshindonga, Rukwangali, and Herero.</p>
-      <a href="https://okalex.org/" class="hero-card-link" target="_blank" rel="noopener">Try the translator &rarr;</a>
-      <span class="hero-card-note" aria-hidden="true">try it!
-        <svg viewBox="0 0 50 40" xmlns="http://www.w3.org/2000/svg"><path d="M44 4 C 40 22, 26 32, 8 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M15 25 L 7 32 L 15 38" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </span>
+      <div class="hero-feature">
+        <h3 class="hero-card-title">Grammar and Spelling</h3>
+        <p class="hero-card-text">The first grammar and spelling checkers for Oshikwanyama, Rukwangali, Oshindonga, and Otjiherero.</p>
+        <a href="https://okalex.org/check.html" class="hero-card-link" target="_blank" rel="noopener">Check your text &rarr;</a>
+        <span class="hero-card-note" aria-hidden="true">try it!
+          <svg viewBox="0 0 50 40" xmlns="http://www.w3.org/2000/svg"><path d="M44 4 C 40 22, 26 32, 8 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M15 25 L 7 32 L 15 38" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+      </div>
+      <div class="hero-feature hero-feature--secondary">
+        <h3 class="hero-card-title">OkaMT</h3>
+        <p class="hero-card-text">Machine translation between English, Oshikwanyama, Oshindonga, Rukwangali, and Herero.</p>
+        <a href="https://okalex.org/" class="hero-card-textlink" target="_blank" rel="noopener">Try the translator &rarr;</a>
+      </div>
     </aside>
   </div>
   <div class="hero-gradient"></div>

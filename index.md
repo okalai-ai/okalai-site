@@ -19,68 +19,70 @@ title: Home
       </div>
     </div>
     <aside class="hero-card" data-sr>
-      <div class="hero-card-mark">
-      <svg viewBox="35 25 250 290" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <defs>
-          <filter id="glowIndigo" x="-30%" y="-30%" width="160%" height="160%">
-            <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#4338ca" flood-opacity="0.55"/>
-          </filter>
-          <filter id="glowPurple" x="-30%" y="-30%" width="160%" height="160%">
-            <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#6c63ff" flood-opacity="0.55"/>
-          </filter>
-          <filter id="glowTeal" x="-30%" y="-30%" width="160%" height="160%">
-            <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#14b8a6" flood-opacity="0.6"/>
-          </filter>
-          <filter id="glowAmber" x="-30%" y="-30%" width="160%" height="160%">
-            <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#f59e0b" flood-opacity="0.55"/>
-          </filter>
-          <linearGradient id="gradIndigo" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#5346e0"/>
-            <stop offset="100%" stop-color="#352aa8"/>
-          </linearGradient>
-          <linearGradient id="gradPurple" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#8b82ff"/>
-            <stop offset="100%" stop-color="#4f46e5"/>
-          </linearGradient>
-          <linearGradient id="gradTeal" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#2dd4bf"/>
-            <stop offset="100%" stop-color="#0d9488"/>
-          </linearGradient>
-          <linearGradient id="gradAmber" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#fbbf24"/>
-            <stop offset="100%" stop-color="#c2740a"/>
-          </linearGradient>
-        </defs>
-        <g transform="rotate(-2 150 87)">
-          <rect x="50" y="66" width="200" height="42" rx="10" fill="url(#gradIndigo)" filter="url(#glowIndigo)"/>
-          <g class="caterpillar">
-            <g><circle cx="92" cy="54" r="11" fill="#6c63ff"/><circle cx="88.5" cy="50" r="2.6" fill="#fff" opacity="0.8"/></g>
-            <g><circle cx="114" cy="54" r="11" fill="#14b8a6"/><circle cx="110.5" cy="50" r="2.6" fill="#fff" opacity="0.8"/></g>
-            <g><circle cx="136" cy="54" r="11" fill="#f59e0b"/><circle cx="132.5" cy="50" r="2.6" fill="#fff" opacity="0.8"/></g>
-            <g><circle cx="158" cy="54" r="11" fill="#6c63ff"/><circle cx="154.5" cy="50" r="2.6" fill="#fff" opacity="0.8"/></g>
-            <g><circle cx="180" cy="54" r="11" fill="#14b8a6"/><circle cx="176.5" cy="50" r="2.6" fill="#fff" opacity="0.8"/></g>
-            <g>
-              <circle cx="206" cy="49" r="15" fill="#ec4899"/>
-              <g class="eyes">
-                <circle cx="202" cy="44" r="5" fill="#fff"/><circle cx="213" cy="45" r="5" fill="#fff"/>
-                <circle cx="203.5" cy="45" r="2.4" fill="#0a0f1a"/><circle cx="214.5" cy="46" r="2.4" fill="#0a0f1a"/>
+      <div class="hero-card-head">
+        <div class="hero-card-mark">
+        <svg viewBox="35 25 250 290" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <filter id="glowIndigo" x="-30%" y="-30%" width="160%" height="160%">
+              <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#4338ca" flood-opacity="0.55"/>
+            </filter>
+            <filter id="glowPurple" x="-30%" y="-30%" width="160%" height="160%">
+              <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#6c63ff" flood-opacity="0.55"/>
+            </filter>
+            <filter id="glowTeal" x="-30%" y="-30%" width="160%" height="160%">
+              <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#14b8a6" flood-opacity="0.6"/>
+            </filter>
+            <filter id="glowAmber" x="-30%" y="-30%" width="160%" height="160%">
+              <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#f59e0b" flood-opacity="0.55"/>
+            </filter>
+            <linearGradient id="gradIndigo" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#5346e0"/>
+              <stop offset="100%" stop-color="#352aa8"/>
+            </linearGradient>
+            <linearGradient id="gradPurple" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#8b82ff"/>
+              <stop offset="100%" stop-color="#4f46e5"/>
+            </linearGradient>
+            <linearGradient id="gradTeal" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#2dd4bf"/>
+              <stop offset="100%" stop-color="#0d9488"/>
+            </linearGradient>
+            <linearGradient id="gradAmber" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#fbbf24"/>
+              <stop offset="100%" stop-color="#c2740a"/>
+            </linearGradient>
+          </defs>
+          <g transform="rotate(-2 150 87)">
+            <rect x="50" y="66" width="200" height="42" rx="10" fill="url(#gradIndigo)" filter="url(#glowIndigo)"/>
+            <g class="caterpillar">
+              <g><circle cx="92" cy="54" r="11" fill="#6c63ff"/><circle cx="88.5" cy="50" r="2.6" fill="#fff" opacity="0.8"/></g>
+              <g><circle cx="114" cy="54" r="11" fill="#14b8a6"/><circle cx="110.5" cy="50" r="2.6" fill="#fff" opacity="0.8"/></g>
+              <g><circle cx="136" cy="54" r="11" fill="#f59e0b"/><circle cx="132.5" cy="50" r="2.6" fill="#fff" opacity="0.8"/></g>
+              <g><circle cx="158" cy="54" r="11" fill="#6c63ff"/><circle cx="154.5" cy="50" r="2.6" fill="#fff" opacity="0.8"/></g>
+              <g><circle cx="180" cy="54" r="11" fill="#14b8a6"/><circle cx="176.5" cy="50" r="2.6" fill="#fff" opacity="0.8"/></g>
+              <g>
+                <circle cx="206" cy="49" r="15" fill="#ec4899"/>
+                <g class="eyes">
+                  <circle cx="202" cy="44" r="5" fill="#fff"/><circle cx="213" cy="45" r="5" fill="#fff"/>
+                  <circle cx="203.5" cy="45" r="2.4" fill="#0a0f1a"/><circle cx="214.5" cy="46" r="2.4" fill="#0a0f1a"/>
+                </g>
+                <path d="M200 57 Q 206 61 212 57" fill="none" stroke="#0a0f1a" stroke-width="1.8" stroke-linecap="round"/>
               </g>
-              <path d="M200 57 Q 206 61 212 57" fill="none" stroke="#0a0f1a" stroke-width="1.8" stroke-linecap="round"/>
             </g>
           </g>
-        </g>
-        <g transform="rotate(1.5 170 149)">
-          <rect x="70" y="128" width="200" height="42" rx="10" fill="url(#gradPurple)" filter="url(#glowPurple)"/>
-        </g>
-        <g transform="rotate(-1 150 211)">
-          <rect x="50" y="190" width="200" height="42" rx="10" fill="url(#gradTeal)" filter="url(#glowTeal)"/>
-        </g>
-        <g transform="rotate(2.5 170 273)">
-          <rect x="70" y="252" width="200" height="42" rx="10" fill="url(#gradAmber)" filter="url(#glowAmber)"/>
-        </g>
-      </svg>
+          <g transform="rotate(1.5 170 149)">
+            <rect x="70" y="128" width="200" height="42" rx="10" fill="url(#gradPurple)" filter="url(#glowPurple)"/>
+          </g>
+          <g transform="rotate(-1 150 211)">
+            <rect x="50" y="190" width="200" height="42" rx="10" fill="url(#gradTeal)" filter="url(#glowTeal)"/>
+          </g>
+          <g transform="rotate(2.5 170 273)">
+            <rect x="70" y="252" width="200" height="42" rx="10" fill="url(#gradAmber)" filter="url(#glowAmber)"/>
+          </g>
+        </svg>
+        </div>
+        <span class="hero-card-kicker">Featured</span>
       </div>
-      <span class="hero-card-kicker">Featured</span>
       <div class="hero-feature">
         <h3 class="hero-card-title">Grammar and Spelling</h3>
         <p class="hero-card-text">The first grammar and spelling checkers for Oshikwanyama, Rukwangali, Oshindonga, and Otjiherero.</p>
@@ -90,8 +92,8 @@ title: Home
         </span>
       </div>
       <div class="hero-feature hero-feature--secondary">
-        <h3 class="hero-card-title">OkaMT</h3>
-        <p class="hero-card-text">Machine translation between English, Oshikwanyama, Oshindonga, Rukwangali, and Herero.</p>
+        <h3 class="hero-card-title">Machine Translation</h3>
+        <p class="hero-card-text">Translation between English, Oshikwanyama, Oshindonga, Rukwangali, and Herero.</p>
         <a href="https://okalex.org/" class="hero-card-textlink" target="_blank" rel="noopener">Try the translator &rarr;</a>
       </div>
     </aside>

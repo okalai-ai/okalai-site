@@ -211,8 +211,11 @@ a {
 
 /* Hero card: logo + featured product */
 .hero-card {
-  flex: 0 0 300px;
+  flex: 0 1 560px;
   margin-left: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.75rem;
   position: relative;
   z-index: 1;
   padding: 1.75rem;
@@ -222,9 +225,16 @@ a {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
 }
 
+.hero-card-head {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
 .hero-card-mark {
-  width: 64px;
-  margin-bottom: 1.1rem;
+  width: 40px;
 }
 
 .hero-card-mark svg {
@@ -241,7 +251,6 @@ a {
   text-transform: uppercase;
   letter-spacing: 1.5px;
   color: rgba(255, 255, 255, 0.5);
-  margin-bottom: 0.35rem;
 }
 
 .hero-card-title {
@@ -279,17 +288,8 @@ a {
 }
 
 .hero-feature--secondary {
-  margin-top: 1.5rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.hero-feature--secondary .hero-card-title {
-  font-size: 1.05rem;
-}
-
-.hero-feature--secondary .hero-card-text {
-  margin-bottom: 0.6rem;
+  padding-left: 1.75rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .hero-card-textlink {
@@ -1220,6 +1220,33 @@ a {
 }
 
 /* === Responsive === */
+@media (max-width: 1024px) {
+  .hero-columns {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+  }
+  .hero-card {
+    flex: none;
+    margin-left: 0;
+    width: 100%;
+    max-width: 560px;
+  }
+}
+
+@media (max-width: 560px) {
+  .hero-card {
+    grid-template-columns: 1fr;
+  }
+  .hero-feature--secondary {
+    margin-top: 1.5rem;
+    padding-top: 1.25rem;
+    padding-left: 0;
+    border-left: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -1281,7 +1308,7 @@ a {
     flex: none;
     margin-left: 0;
     width: 100%;
-    max-width: 420px;
+    max-width: 560px;
   }
 
   .hero h1 {

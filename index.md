@@ -104,7 +104,7 @@ title: Home
     <div class="news-items">
       <div class="news-item">
         <span class="news-date">Oct 2026</span>
-        <span class="news-text">Launched the first grammar checkers for Oshikwanyama, Rukwangali, Oshindonga, and Otjiherero</span>
+        <span class="news-text">Launched the first grammar and spell checkers for Oshikwanyama, Rukwangali, Oshindonga, and Otjiherero</span>
         <a href="https://okalex.org/check.html" class="news-link" target="_blank" rel="noopener">Visit &rarr;</a>
       </div>
       <div class="news-item">
@@ -196,7 +196,7 @@ title: Home
     <div class="section-header" data-sr>
       <span class="section-label section-label--models">Layer 02 · Models</span>
       <h2>Models</h2>
-      <p class="section-desc">Machine translation and language models for the long tail of languages and domains. From our current work:</p>
+      <p class="section-desc">Machine translation, grammar checking, and language models for the long tail of languages and domains. From our current work:</p>
     </div>
 
     <div id="okamt" class="product-card" data-sr>
@@ -225,6 +225,32 @@ title: Home
         </div>
         <div class="lang-pair" style="--lc:#f59e0b">
           <span class="lang-name">Herero</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="grammar" class="product-card" data-sr style="margin-top:1.5rem">
+      <div class="product-info">
+        <h3>Grammar and Spell Checker</h3>
+        <p class="product-tagline">Grammar and Spelling Model</p>
+        <p>
+          The first grammar and spelling checkers for Oshikwanyama, Rukwangali, Oshindonga, and Otjiherero, four languages not supported by existing writing tools. Paste in text and it flags spelling and grammar errors.
+        </p>
+        <a href="https://okalex.org/check.html" class="btn btn-primary" target="_blank" rel="noopener">Try it on OkaLex &rarr;</a>
+      </div>
+      <div class="lang-pairs">
+        <div class="lang-pairs-head">4 languages</div>
+        <div class="lang-pair" style="--lc:#4338ca">
+          <span class="lang-name">Oshikwanyama</span>
+        </div>
+        <div class="lang-pair" style="--lc:#14b8a6">
+          <span class="lang-name">Rukwangali</span>
+        </div>
+        <div class="lang-pair" style="--lc:#6c63ff">
+          <span class="lang-name">Oshindonga</span>
+        </div>
+        <div class="lang-pair" style="--lc:#f59e0b">
+          <span class="lang-name">Otjiherero</span>
         </div>
       </div>
     </div>

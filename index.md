@@ -96,6 +96,11 @@ title: Home
   <div class="container">
     <div class="news-items">
       <div class="news-item">
+        <span class="news-date">Oct 2026</span>
+        <span class="news-text">Launched the first grammar checkers for Oshikwanyama, Rukwangali, Oshindonga, and Otjiherero</span>
+        <a href="https://okalex.org/check.html" class="news-link" target="_blank" rel="noopener">Visit &rarr;</a>
+      </div>
+      <div class="news-item">
         <span class="news-date">Aug 2026</span>
         <span class="news-text">Expanded our machine translation with three additional languages: Oshindonga, Rukwangali, and Herero</span>
         <a href="https://okalex.org/" class="news-link" target="_blank" rel="noopener">Visit &rarr;</a>

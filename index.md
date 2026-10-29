@@ -73,10 +73,13 @@ title: Home
       <div class="hero-feature">
         <h3 class="hero-card-title">Machine Translation</h3>
         <p class="hero-card-text">Translation between English, Oshikwanyama, Oshindonga, Rukwangali, and Herero.</p>
-        <a href="https://okalex.org/" class="hero-card-link" target="_blank" rel="noopener">Try the translator &rarr;</a>
-        <span class="hero-card-note" aria-hidden="true">try it!
-          <svg viewBox="0 0 50 40" xmlns="http://www.w3.org/2000/svg"><path d="M44 4 C 40 22, 26 32, 8 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M15 25 L 7 32 L 15 38" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </span>
+        <div class="hero-card-cta">
+          <a href="https://okalex.org/" class="hero-card-link" target="_blank" rel="noopener">Try the translator &rarr;</a>
+          <span class="hero-card-note" aria-hidden="true">
+            <svg viewBox="0 0 44 24" xmlns="http://www.w3.org/2000/svg"><path d="M40 6 C 30 18, 18 18, 6 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M13 7 L 5 12 L 12 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            try it!
+          </span>
+        </div>
       </div>
       <div class="hero-feature hero-feature--secondary">
         <h3 class="hero-card-title">Grammar and Spelling</h3>

@@ -326,7 +326,6 @@ title: Home
     <div class="section-header" data-sr>
       <span class="section-label section-label--applications">Layer 04 · Applications</span>
       <h2>Applications</h2>
-      <p class="section-desc">Tools built on our models, available to use today on OkaLex.</p>
     </div>
 
     <div class="app-grid" data-sr>

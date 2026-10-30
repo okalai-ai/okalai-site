@@ -326,19 +326,18 @@ title: Home
     <div class="section-header" data-sr>
       <span class="section-label section-label--applications">Layer 04 · Applications</span>
       <h2>Applications</h2>
-      <p class="section-desc">Application areas where we are building first-of-their-kind systems for the long tail of languages and domains.</p>
+      <p class="section-desc">Tools built on our models, available to use today on OkaLex.</p>
     </div>
 
     <div class="app-grid" data-sr>
-      <div class="app-card">
+      <a href="https://okalex.org/" class="app-card" target="_blank" rel="noopener">
         <h3>Machine Translation</h3>
-      </div>
-      <div class="app-card">
-        <h3>Question Answering</h3>
-      </div>
-      <div class="app-card">
-        <h3>Structured Data Representation</h3>
-      </div>
+        <span class="app-card-link">Try the translator &rarr;</span>
+      </a>
+      <a href="https://okalex.org/check.html" class="app-card" target="_blank" rel="noopener">
+        <h3>Grammar and Spell Checking</h3>
+        <span class="app-card-link">Check your text &rarr;</span>
+      </a>
     </div>
   </div>
 </section>

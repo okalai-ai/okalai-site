@@ -721,11 +721,14 @@ a {
 }
 
 .app-card {
+  display: block;
   background: white;
   border-radius: 12px;
   padding: 1.75rem 1.85rem;
   border: 1px solid #e8e8ee;
   border-top: 3px solid #f59e0b;
+  color: inherit;
+  text-decoration: none;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -740,7 +743,13 @@ a {
   font-weight: 500;
   color: #0a0f1a;
   letter-spacing: -0.2px;
-  margin: 0;
+  margin: 0 0 0.75rem;
+}
+
+.app-card-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #6c63ff;
 }
 
 /* === Product Card === */

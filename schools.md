@@ -1,22 +1,43 @@
 ---
 layout: default
-title: Okalai AI Schools
+title: Lectures and Summer Schools
 permalink: /schools/
-description: Okalai AI Schools: annual AI schools bringing students, educators, and industry professionals together to build AI skills, from the 2022 inaugural online school to the 2024 Namib AI Winter School.
+description: Recorded lectures on NLP and machine learning by Ndapa Nakashole, and the Okalai AI schools held since 2022, from the inaugural online school to the 2024 Namib AI Winter School.
 ---
 
 <section class="school-page-hero">
   <div class="container">
-    <span class="school-eyebrow" data-sr>Okalai AI Schools</span>
-    <h1 data-sr>Our AI events</h1>
-    <p class="lead" data-sr>
-      We've held AI events since 2022. They're paused for now.
-    </p>
+    <span class="school-eyebrow" data-sr>Okalai AI</span>
+    <h1 data-sr>Lectures and Summer Schools</h1>
   </div>
 </section>
 
-<section class="section">
+<section class="section" id="lectures">
   <div class="container">
+    <div class="section-header" data-sr>
+      <h2>Lectures</h2>
+    </div>
+    <div class="lecture-grid">
+      <div class="lecture-card" data-sr>
+        <div class="lecture-video">
+          <iframe src="https://www.youtube-nocookie.com/embed/4-V6tMpXuOk" title="Maximum Likelihood Estimation | NLP" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="lecture-info">
+          <span class="lecture-tag">NLP</span>
+          <h3>Maximum Likelihood Estimation</h3>
+        </div>
+      </div>
+    </div>
+    <a href="https://www.youtube.com/@ndapanakashole" class="lecture-more" target="_blank" rel="noopener">All lectures on YouTube &rarr;</a>
+  </div>
+</section>
+
+<section class="section section-alt" id="summer-schools">
+  <div class="container">
+    <div class="section-header" data-sr>
+      <h2>Summer Schools</h2>
+      <p class="section-desc">We've held AI schools since 2022. They're paused for now.</p>
+    </div>
     <div class="school-grid">
       <a class="school-card" href="/schools/2024" style="--accent:#f59e0b" data-sr>
         <div class="school-card__year">2024</div>

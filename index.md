@@ -103,7 +103,7 @@ title: Home
       </p>
       <div class="hero-cta" data-sr>
         <a href="#research" class="btn btn-primary">Research</a>
-        <a href="/schools" class="btn btn-outline">Events</a>
+        <a href="/schools" class="btn btn-outline">Lectures and Summer Schools</a>
       </div>
     </div>
   </div>

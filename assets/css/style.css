@@ -1439,6 +1439,55 @@ a {
   max-width: 640px;
 }
 
+/* Lectures (embedded videos) */
+.lecture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+.lecture-card {
+  background: #fff;
+  border: 1px solid #e8e8ee;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.lecture-video {
+  aspect-ratio: 16 / 9;
+  background: #0a0f1a;
+}
+.lecture-video iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+.lecture-info {
+  padding: 1rem 1.25rem 1.25rem;
+}
+.lecture-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin-bottom: 0.35rem;
+}
+.lecture-info h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #0a0f1a;
+}
+.lecture-more {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #6c63ff;
+  text-decoration: none;
+}
+.lecture-more:hover { text-decoration: underline; }
+
 /* Year meta row on a single event page */
 .school-meta {
   display: flex;
